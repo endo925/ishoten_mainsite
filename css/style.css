@@ -99,7 +99,7 @@ body{height: 4200px; background-color: #000000;font-family:Times;}
 	padding-top: 3200px;
 }
 #img_sp{
-	position: fixed;
+	position: absolute;
 	background-image: url("../image/visual_sp.png");
 	opacity: 0.6;
 	background-size: cover;
