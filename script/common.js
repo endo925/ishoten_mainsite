@@ -173,6 +173,16 @@ window.addEventListener('scroll', ()=>{
 		z_index0.classList.remove('infoS');
 		M.classList.remove("depout");
 	}
+	const ImgPa=document.getElementById('imgPa');
+	const Img=document.getElementById('img');
+	const IshoutenSc= document.getElementsByClassName('ishouten')[0];
+	const InfoSc= document.getElementsByClassName('info')[0];
+	const sinkSc= document.getElementsByClassName('sink')[0];
+	const menu2Sc=document.getElementsByClassName('layer2')[0];
+	
+	sinkSc.classList.add('sinkSc');
+	IshoutenSc.classList.add('ishoutenSc');
+
 	if(scrollTop>3200){
 		ImgPa.classList.remove('imgSc');			//css:line:38
 		Img.classList.remove('imgSc');				//css:line:37
