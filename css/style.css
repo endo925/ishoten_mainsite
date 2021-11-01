@@ -84,7 +84,7 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 #img{
 	position: absolute;
 	background-image: url("../image/visual_pc.png");
-	opacity: 0.6;
+	opacity: 0.7;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -102,7 +102,7 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 #img_sp{
 	position: absolute;
 	background-image: url("../image/visual_sp.png");
-	opacity: 0.6;
+	opacity: 0.7;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
