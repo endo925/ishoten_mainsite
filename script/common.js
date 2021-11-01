@@ -180,7 +180,6 @@ window.addEventListener('scroll', ()=>{
 	const IshoutenSc= document.getElementsByClassName('ishouten')[0];
 	const InfoSc= document.getElementsByClassName('info')[0];
 	const sinkSc= document.getElementsByClassName('sink')[0];
-	const menu2Sc=document.getElementsByClassName('layer2')[0];
 	
 	sinkSc.classList.add('sinkSc');
 	IshoutenSc.classList.add('ishoutenSc');
@@ -191,7 +190,6 @@ window.addEventListener('scroll', ()=>{
 		IshoutenSc.classList.remove('ishoutenSc');	//css:line:60
 		InfoSc.classList.remove('infoSc');			//css:line:75
 		sinkSc.classList.remove('sinkSc');			//css:line:90
-		menu2Sc.classList.remove('menu2Sc');		//css:line:131
 	}
 	else{
 		ImgPa.classList.add('imgSc');
@@ -199,6 +197,5 @@ window.addEventListener('scroll', ()=>{
 		IshoutenSc.classList.add('ishoutenSc');
 		InfoSc.classList.add('infoSc');
 		sinkSc.classList.add('sinkSc');
-		menu2Sc.classList.add('menu2Sc');
 	}
 },false);
