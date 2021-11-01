@@ -122,15 +122,19 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 /*意匠展ロゴ*/
 .ishouten img{width: 30vh;}
 .ishouten{
+	padding-top: 3200px;
 	font-size: 3.0em;
 	text-align: center;
 	top: 50%;
 	width: 100%;
-	position: fixed;
+	position: absolute;
 	transform: translateY(-50%); 
 }
 .ishouten img{transition: ease 2.0s;}	/*2秒かけて動く*/
 .ishoutenS img{transform: translateY(-20vh)scale(1.5,1.5);}	/*上に50px移動、1.5倍拡大 1900pxまでスクロールすると追加される*/
+.ishouten.ishoutenSc{	
+	padding-top: 0px;
+	position: fixed;}
 
 /*開催概要*/
 .info{
@@ -160,7 +164,8 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 /*depth*/
 #log{z-index: 13;}
 .sink{
-	position: fixed;
+	padding-top: 3200px;
+	position: absolute;
 	text-align: center;
 	transform: translate(-50%, -50%);
 	left: 50%;
@@ -170,6 +175,9 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 }
 .sink div{transition: ease 2.0s;}
 .log2 div{transform: translate(0.5vw,-36vh)scale(3.5,3.5);} 	/*2021pxまでスクロールで追加*/
+.sink.sinkSc{
+	padding-top: 0px;
+	position: fixed;}
 
 #log0{
 	margin-right: 2.5vw;
