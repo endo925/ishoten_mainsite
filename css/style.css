@@ -74,12 +74,14 @@ body{height: 4200px; background-color: #000000;font-family:Times;}
 }
 
 /*背景*/
-#imgPa{padding-top: 3200px;}
-
-#img{display:none;}
-@media (min-width: 769px) {
-#img{
+#imgPa{display:none;}
+#img_spPa{display:none;}
+@media (min-width: 769px){
+#imgPa{
 	display:block;
+	padding-top: 3200px;
+}
+#img{
 	position: absolute;
 	background-image: url("../image/visual_pc.png");
 	opacity: 0.6;
@@ -91,9 +93,12 @@ body{height: 4200px; background-color: #000000;font-family:Times;}
 }
 #img.imgSc{position: fixed;}
 #imgPa.imgSc{padding-top: 0px;}
-	#img_sp{display:none;}
 }
-#img_sp{display:block;
+#img_spPa{
+	display:block;
+	padding-top: 3200px;
+}
+#img_sp{
 	position: fixed;
 	background-image: url("../image/visual_sp.png");
 	opacity: 0.6;
@@ -103,6 +108,9 @@ body{height: 4200px; background-color: #000000;font-family:Times;}
 	width: 100vw;
 	height:100vh;
 }
+#img_sp.imgSc_sp{position: fixed;}
+#imgPa_sp.imgSc_sp{padding-top: 0px;}
+
 /*重ね順*/
 #z-index0{z-index: 0;}/*開始概要*/
 #z-index1{z-index: 1;}/*意匠展ロゴ*/
