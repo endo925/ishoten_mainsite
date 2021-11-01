@@ -47,6 +47,14 @@ const z1 = document.getElementById("z-index1");
 const z1_style = z1.style;
 z1_style.transform = "scale( "+0.5+" , "+0.5+" )";	//意匠展縮小
 
+const ImgPa=document.getElementById('imgPa');
+const Img=document.getElementById('img');
+const IshoutenSc= document.getElementsByClassName('ishouten')[0];
+const InfoSc= document.getElementsByClassName('info')[0];
+const sinkSc= document.getElementsByClassName('sink')[0];
+
+sinkSc.classList.add('sinkSc');
+IshoutenSc.classList.add('ishoutenSc');
 
 
 z_index5.style.display = 'none';
@@ -175,14 +183,6 @@ window.addEventListener('scroll', ()=>{
 		z_index0.classList.remove('infoS');
 		M.classList.remove("depout");
 	}
-	const ImgPa=document.getElementById('imgPa');
-	const Img=document.getElementById('img');
-	const IshoutenSc= document.getElementsByClassName('ishouten')[0];
-	const InfoSc= document.getElementsByClassName('info')[0];
-	const sinkSc= document.getElementsByClassName('sink')[0];
-	
-	sinkSc.classList.add('sinkSc');
-	IshoutenSc.classList.add('ishoutenSc');
 
 	if(scrollTop>3200){
 		ImgPa.classList.remove('imgSc');			//css:line:38
