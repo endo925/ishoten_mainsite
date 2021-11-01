@@ -75,6 +75,7 @@ body{height: 4200px; background-color: #000000;font-family:Times;}
 
 /*背景*/
 #imgPa{padding-top: 3200px;}
+
 #img{display:none;}
 @media (min-width: 769px) {
 #img{
@@ -89,6 +90,7 @@ body{height: 4200px; background-color: #000000;font-family:Times;}
 	height:100vh
 }
 #img.imgSc{position: fixed;}
+#imgPa.imgSc{padding-top: 0px;}
 	#img_sp{display:none;}
 }
 #img_sp{display:block;
