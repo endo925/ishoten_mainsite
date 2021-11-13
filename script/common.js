@@ -180,7 +180,7 @@ window.addEventListener('scroll', ()=>{
 	else{
 		log.classList.remove('log2');
 		z_index1.classList.remove('ishoutenS');
-		z_index0.classList.remove('infoS');
+		//z_index0.classList.remove('infoS');
 		M.classList.remove("depout");
 	}
 
