@@ -120,7 +120,7 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 #z-index11{z-index: 11;}/*what*/
 
 /*意匠展ロゴ*/
-.ishouten img{width: 30vh;}
+.ishouten img{width: 23vh;}
 .ishouten{
 	padding-top: 3200px;
 	font-size: 3.0em;
@@ -131,7 +131,7 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 	transform: translateY(-50%);
 }
 .ishouten img{transition: ease 2.0s;}	/*2秒かけて動く*/
-.ishoutenS img{transform: translateY(-15vh)scale(1.5,1.5);}	/*上に50px移動、1.5倍拡大 1900pxまでスクロールすると追加される*/
+.ishoutenS img{transform: translateY(-5vh)scale(1.5,1.5);}	/*上に50px移動、1.5倍拡大 1900pxまでスクロールすると追加される*/
 .ishouten.ishoutenSc{	
 	padding-top: 0px;
 	position: fixed;}
@@ -174,7 +174,7 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 	pointer-events: none;
 }
 .sink div{transition: ease 2.0s;}
-.log2 div{transform: translate(0.5vw,-20vh)scale(2.0,2.0);} 	/*2021pxまでスクロールで追加*/
+.log2 div{transform: translate(0.5vw,-18vh)scale(1.6,1.6);} 	/*2021pxまでスクロールで追加*/
 .sink.sinkSc{
 	padding-top: 0px;
 	position: fixed;}
