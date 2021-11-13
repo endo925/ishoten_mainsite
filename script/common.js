@@ -38,11 +38,10 @@ if (window.performance.navigation.type === 1) {	//リロード時
 	}, 50);
 }
 
+const z_index2 = document.getElementById("z-index2");
 const z_index3 = document.getElementById("z-index3");
 const z_index5 = document.getElementById("z-index5");
-const z_index2 = document.getElementById("z-index2");
 const z_index11 = document.getElementById("z-index11");
-const z_index0 = document.getElementById("z-index0");
 
 const z3 = document.getElementById("z-index3");
 const z3_style = z3.style;
