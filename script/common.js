@@ -39,6 +39,7 @@ if (window.performance.navigation.type === 1) {	//リロード時
 }
 
 const z_index2 = document.getElementById("z-index2");
+const z_index3 = document.getElementById("z-index3");
 const z_index5 = document.getElementById("z-index5");
 const z_index6 = document.getElementById("z-index6");
 const z_index11 = document.getElementById("z-index11");
@@ -57,6 +58,7 @@ sinkSc.classList.add('sinkSc');
 IshoutenSc.classList.add('ishoutenSc');
 
 z_index2.style.display = 'none';
+z_index3.style.display = 'none';
 z_index6.style.display = 'none';
 z_index11.style.display = 'none';
 if(window.innerWidth > window.innerHeight) {	//pc
@@ -190,23 +192,23 @@ window.addEventListener('scroll', ()=>{
 	//let y3 = (scrollTop3+750)*0.001;
 	//function con(y3){return -10*y3+10;}
 	//let yd3 = con(y3);
-	//z_index5.style.opacity =1;
-	//z_index5.style.filter = "none";
+	//z_index3.style.opacity =1;
+	//z_index3.style.filter = "none";
 	//
 	//if(scrollTop3>=0&&scrollTop3<900){
-	//	z_index5.style.display = '';
+	//	z_index3.style.display = '';
 	//	if(scrollTop3<150){
-	//		z_index5.style.opacity =scrollTop3/350;
-	//		z_index5.style.filter = "blur("+yd3+"px)";
+	//		z_index3.style.opacity =scrollTop3/350;
+	//		z_index3.style.filter = "blur("+yd3+"px)";
 	//	}//150pxは動かない
-	//	else if(scrollTop3>=150,scrollTop3<650){z_index5.style.transform = "scale( "+1+" , "+1+" )";}
+	//	else if(scrollTop3>=150,scrollTop3<650){z_index3.style.transform = "scale( "+1+" , "+1+" )";}
 	//	else{
 	//		y3 = (scrollTop3-550)*0.01;
-	//		z_index5.style.transform = "scale( "+y3+" , "+y3+" )";
-	//		z_index5.style.filter = "blur("+2*y3+"px)";
+	//		z_index3.style.transform = "scale( "+y3+" , "+y3+" )";
+	//		z_index3.style.filter = "blur("+2*y3+"px)";
 	//	}
 	//}
-	//else{z_index5.style.display = 'none';}
+	//else{z_index3.style.display = 'none';}
 	
 	
 	//意匠展、開催概要
