@@ -173,9 +173,9 @@ window.addEventListener('scroll', ()=>{
 			log0.textContent = 2022;
 			M.classList.add("depout");
 		}
-		if(scrollTop>2050){
-			z_index0.classList.add('infoS');
-		}
+		//if(scrollTop>2050){
+		//	z_index0.classList.add('infoS');
+		//}
 	}
 	else{
 		log.classList.remove('log2');
@@ -188,14 +188,14 @@ window.addEventListener('scroll', ()=>{
 		ImgPa.classList.remove('imgSc');			//css:line:38
 		Img.classList.remove('imgSc');				//css:line:37
 		IshoutenSc.classList.remove('ishoutenSc');	//css:line:60
-		InfoSc.classList.remove('infoSc');			//css:line:75
+		//InfoSc.classList.remove('infoSc');			//css:line:75
 		sinkSc.classList.remove('sinkSc');			//css:line:90
 	}
 	else{
 		ImgPa.classList.add('imgSc');
 		Img.classList.add('imgSc');
 		IshoutenSc.classList.add('ishoutenSc');
-		InfoSc.classList.add('infoSc');
+		//InfoSc.classList.add('infoSc');
 		sinkSc.classList.add('sinkSc');
 	}
 },false);
