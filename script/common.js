@@ -151,11 +151,8 @@ window.addEventListener('scroll', ()=>{
 		else if(scrollTopC>=150,scrollTopC<650){z_index10.style.transform = "scale( "+1+" , "+1+" )";}
 		else{
 			x2 = (scrollTopC-550)*0.01;
-			function wha(x2){return -9*x2+10;}
-			xd2 = wha(x2);
 			z_index10.style.transform = "scale( "+x2+" , "+x2+" )";
 			z_index10.style.filter = "blur("+2*x2+"px)";
-			z_index10.style.opacity =xd2;
 		}
 	}
 	else{z_index10.style.display = 'none';}//コンセプト消す
