@@ -117,7 +117,7 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 /*#z-index0{z-index: 0;}開始概要*/
 #z-index2{z-index: 2;}/*vis_pc_2*/
 #z-index3{z-index: 3;}/*vis_pc_3*/
-#z-index3{z-index: 5;}/*意匠展ロゴ*/
+#z-index5{z-index: 5;}/*意匠展ロゴ*/
 #z-index6{z-index: 6;}/*concept*/
 #z-index11{z-index: 11;}/*what*/
 
