@@ -109,24 +109,24 @@ window.addEventListener('scroll', ()=>{
 	
 	
 	//what
-	let scrollTopC = scrollTop-200;
-	let x = (scrollTopC+750)*0.001;
+	let scrollTopW = scrollTop-200;
+	let x = (scrollTopW+750)*0.001;
 	function con(x){return -10*x+10;}
 	let xd = con(x);
 	z_index11.style.opacity =1;
 	z_index11.style.filter = "none";
 
-	if(scrollTopC>=0&&scrollTopC<1000){
+	if(scrollTopW>=0&&scrollTopW<1000){
 		z_index11.style.display = '';//表示
-		if(scrollTopC<150){
-			z_index11.style.opacity =scrollTopC/350;
+		if(scrollTopW<150){
+			z_index11.style.opacity =scrollTopW/350;
 			z_index11.style.transform = "scale( "+0.9+" , "+0.9+" )";
 			z_index11.style.filter = "blur("+xd+"px)";
 		}//150pxは動かない
-		else if(scrollTopC>=150,scrollTopC<250){z_index11.style.transform = "scale( "+x+" , "+x+" )";}
-		else if(scrollTopC>=250,scrollTopC<650){z_index11.style.transform = "scale( "+1+" , "+1+" )";}
+		else if(scrollTopW>=150,scrollTopW<250){z_index11.style.transform = "scale( "+x+" , "+x+" )";}
+		else if(scrollTopW>=250,scrollTopW<650){z_index11.style.transform = "scale( "+1+" , "+1+" )";}
 		else{
-			x = (scrollTopC-550)*0.01;
+			x = (scrollTopW-550)*0.01;
 			z_index11.style.transform = "scale( "+x+" , "+x+" )";
 			z_index11.style.filter = "blur("+2*x+"px)";
 		}
@@ -159,26 +159,26 @@ window.addEventListener('scroll', ()=>{
 	
 	
 	//concept
-	let scrollTopW = scrollTop-950;
-	let y = (scrollTopW+750)*0.001;
+	let scrollTopC = scrollTop-950;
+	let y = (scrollTopC+750)*0.001;
 	function con(y){return -10*y+10;}
 	let yd = con(y);
 	z_index5.style.opacity =1;
 	z_index5.style.filter = "none";
 	
-	if(scrollTopW>=0&&scrollTopW<900){
+	if(scrollTopC>=0&&scrollTopC<900){
 		z_index5.style.display = '';
-		if(scrollTopW<150){
-			z_index5.style.opacity =scrollTopW/350;
+		if(scrollTopC<150){
+			z_index5.style.opacity =scrollTopC/350;
 			z_index5.style.transform = "scale( "+0.9+" , "+0.9+" )";
 			z_index5.style.filter = "blur("+yd+"px)";
 		}//150pxは動かない
-		else if(scrollTopW>=150,scrollTopW<250){
+		else if(scrollTopC>=150,scrollTopC<250){
 			z_index5.style.transform = "scale( "+y+" , "+y+" )";
 		}
-		else if(scrollTopW>=250,scrollTopW<650){z_index5.style.transform = "scale( "+1+" , "+1+" )";}
+		else if(scrollTopC>=250,scrollTopC<650){z_index5.style.transform = "scale( "+1+" , "+1+" )";}
 		else{
-			y = (scrollTopW-550)*0.01;
+			y = (scrollTopC-550)*0.01;
 			z_index5.style.transform = "scale( "+y+" , "+y+" )";
 			z_index5.style.filter = "blur("+2*y+"px)";
 		}
