@@ -117,6 +117,7 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 #z-index0{z-index: 0;}/*開始概要*/
 #z-index1{z-index: 1;}/*意匠展ロゴ*/
 #z-index5{z-index: 5;}/*concept*/
+#z-index10{z-index: 10;}/*vis_pc_2*/
 #z-index11{z-index: 11;}/*what*/
 
 /*意匠展ロゴ*/
@@ -137,7 +138,7 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 	position: fixed;}
 
 /*開催概要*/
-/**.info{
+/*.info{
 	padding-top: 3200px;
 	text-align: center;
 	top: 87%;
@@ -159,7 +160,7 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 .sns{
 	margin-top:1.5rem;
 }
-.icon:hover{opacity: 0.7;}**/
+.icon:hover{opacity: 0.7;}*/
 
 /*depth*/
 #log{z-index: 13;}
