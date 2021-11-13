@@ -38,15 +38,15 @@ if (window.performance.navigation.type === 1) {	//リロード時
 	}, 50);
 }
 
-const z_index2 = document.getElementById("z-index2");
+const z_index3 = document.getElementById("z-index3");
 const z_index5 = document.getElementById("z-index5");
 const z_index10 = document.getElementById("z-index10");
 const z_index11 = document.getElementById("z-index11");
 const z_index0 = document.getElementById("z-index0");
 
-const z1 = document.getElementById("z-index2");
-const z1_style = z1.style;
-z1_style.transform = "scale( "+0.5+" , "+0.5+" )";	//意匠展縮小
+const z3 = document.getElementById("z-index3");
+const z3_style = z3.style;
+z3_style.transform = "scale( "+0.5+" , "+0.5+" )";	//意匠展縮小
 
 const ImgPa=document.getElementById('imgPa');
 const Img=document.getElementById('img');
@@ -61,13 +61,13 @@ z_index10.style.display = 'none';
 z_index5.style.display = 'none';
 z_index11.style.display = 'none';
 if(window.innerWidth > window.innerHeight) {	//pc
-	z_index2.style.opacity = 0.3;
-	z_index2.style.transform = "scale( "+0.3+" , "+0.3+" )";
-	z_index2.style.filter = "blur("+10+"px)";
+	z_index3.style.opacity = 0.3;
+	z_index3.style.transform = "scale( "+0.3+" , "+0.3+" )";
+	z_index3.style.filter = "blur("+10+"px)";
 }
 else{	//スマホ
-	z_index2.style.opacity = 1;
-	z_index2.style.transform = "scale( "+1+" , "+1+" )";
+	z_index3.style.opacity = 1;
+	z_index3.style.transform = "scale( "+1+" , "+1+" )";
 }
 const log = document.getElementById('log');	//scroll:0
 
@@ -85,26 +85,26 @@ window.addEventListener('scroll', ()=>{
 		let z =(scrollTop+1000)*0.0003;
 		function f(z){return -10*z+10;}
 		let zd = f(z);
-		z_index2.style.filter = "blur("+zd+"px)";
-		z_index2.style.opacity = z;
+		z_index3.style.filter = "blur("+zd+"px)";
+		z_index3.style.opacity = z;
 		if(z<1){
-			z_index2.style.transform = "scale( "+z+" , "+z+" )";
-		} else{z_index2.style.transform = "scale( "+1+" , "+1+" )"}//1/1で止める
+			z_index3.style.transform = "scale( "+z+" , "+z+" )";
+		} else{z_index3.style.transform = "scale( "+1+" , "+1+" )"}//1/1で止める
 	} else {	//スマホ用
 		let z = (scrollTop+100)*0.01;
 		function f(z){return z-1;}
 		let zd = f(z);
 		if(scrollTop>=-15&&scrollTop<400){
-		z_index2.style.display = '';
-		z_index2.style.transform = "scale( "+z+" , "+z+" )";
-		z_index2.style.filter = "blur("+2*zd+"px)";
+		z_index3.style.display = '';
+		z_index3.style.transform = "scale( "+z+" , "+z+" )";
+		z_index3.style.filter = "blur("+2*zd+"px)";
 		}
-		else if(scrollTop>=400&&scrollTop<1800){z_index2.style.display = 'none';}
+		else if(scrollTop>=400&&scrollTop<1800){z_index3.style.display = 'none';}
 		else{
-			z_index2.style.display = '';
-			z_index2.style.filter = "blur("+0+"px)";
-			z_index2.style.opacity = 1;
-			z_index2.style.transform = "scale( "+1+" , "+1+" )";
+			z_index3.style.display = '';
+			z_index3.style.filter = "blur("+0+"px)";
+			z_index3.style.opacity = 1;
+			z_index3.style.transform = "scale( "+1+" , "+1+" )";
 		}
 	}
 	
@@ -191,7 +191,7 @@ window.addEventListener('scroll', ()=>{
 	const scroll=()=>{window.scrollBy(0, 1);} 	//y軸1ずつ自動スクロール
 	
 	if(scrollTop>1900){
-		z_index2.classList.add('ishoutenS');
+		z_index3.classList.add('ishoutenS');
 		if(scrollTop>2021){
 			log.classList.add('log2');
 			log0.textContent = 2022;
@@ -203,7 +203,7 @@ window.addEventListener('scroll', ()=>{
 	}
 	else{
 		log.classList.remove('log2');
-		z_index2.classList.remove('ishoutenS');
+		z_index3.classList.remove('ishoutenS');
 		z_index0.classList.remove('infoS');
 		M.classList.remove("depout");
 	}
