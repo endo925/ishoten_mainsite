@@ -40,6 +40,7 @@ if (window.performance.navigation.type === 1) {	//リロード時
 
 const z_index1 = document.getElementById("z-index1");
 const z_index5 = document.getElementById("z-index5");
+const z_index10 = document.getElementById("z-index10");
 const z_index11 = document.getElementById("z-index11");
 const z_index0 = document.getElementById("z-index0");
 
@@ -56,7 +57,7 @@ const sinkSc= document.getElementsByClassName('sink')[0];
 sinkSc.classList.add('sinkSc');
 IshoutenSc.classList.add('ishoutenSc');
 
-
+z_index10.style.display = 'none';
 z_index5.style.display = 'none';
 z_index11.style.display = 'none';
 if(window.innerWidth > window.innerHeight) {	//pc
