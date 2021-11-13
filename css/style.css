@@ -122,7 +122,6 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 /*意匠展ロゴ*/
 .ishouten img{width: 30vh;}
 .ishouten{
-	padding-top: 3200px;
 	font-size: 3.0em;
 	text-align: center;
 	top: 50%;
