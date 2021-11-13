@@ -144,12 +144,12 @@ window.addEventListener('scroll', ()=>{
 	if(scrollTopC>=0&&scrollTopC<1000){
 		z_index2.style.display = '';//表示
 		if(scrollTopC<150){
-			z_index2.style.opacity =scrollTopC/350;
-			z_index2.style.filter = "blur("+xd+"px)";
+			z_index2.style.opacity =scrollTop2/350;
+			z_index2.style.filter = "blur("+xd2+"px)";
 		}//150pxは動かない
 		else if(scrollTopC>=150,scrollTopC<650){z_index2.style.transform = "scale( "+1+" , "+1+" )";}
 		else{
-			x2 = (scrollTopC-550)*0.01;
+			x2 = (scrollTop2-550)*0.01;
 			z_index2.style.transform = "scale( "+x2+" , "+x2+" )";
 			z_index2.style.filter = "blur("+2*x2+"px)";
 		}
@@ -184,6 +184,30 @@ window.addEventListener('scroll', ()=>{
 		}
 	}
 	else{z_index5.style.display = 'none';}
+	
+	//vis_pc_3
+	//let scrollTop3 = scrollTop-950;
+	//let y3 = (scrollTop3+750)*0.001;
+	//function con(y3){return -10*y3+10;}
+	//let yd3 = con(y3);
+	//z_index5.style.opacity =1;
+	//z_index5.style.filter = "none";
+	//
+	//if(scrollTop3>=0&&scrollTop3<900){
+	//	z_index5.style.display = '';
+	//	if(scrollTop3<150){
+	//		z_index5.style.opacity =scrollTop3/350;
+	//		z_index5.style.filter = "blur("+yd3+"px)";
+	//	}//150pxは動かない
+	//	else if(scrollTop3>=150,scrollTop3<650){z_index5.style.transform = "scale( "+1+" , "+1+" )";}
+	//	else{
+	//		y3 = (scrollTop3-550)*0.01;
+	//		z_index5.style.transform = "scale( "+y3+" , "+y3+" )";
+	//		z_index5.style.filter = "blur("+2*y3+"px)";
+	//	}
+	//}
+	//else{z_index5.style.display = 'none';}
+	
 	
 	//意匠展、開催概要
 	const M = document.getElementById("M");
