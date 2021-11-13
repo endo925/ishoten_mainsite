@@ -137,7 +137,7 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 	position: fixed;}
 
 /*開催概要*/
-.info{
+/**.info{
 	padding-top: 3200px;
 	text-align: center;
 	top: 87%;
@@ -159,7 +159,7 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 .sns{
 	margin-top:1.5rem;
 }
-.icon:hover{opacity: 0.7;}
+.icon:hover{opacity: 0.7;}**/
 
 /*depth*/
 #log{z-index: 13;}
