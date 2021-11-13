@@ -108,7 +108,7 @@ window.addEventListener('scroll', ()=>{
 	}
 	
 	
-	//concept
+	//what
 	let scrollTopC = scrollTop-200;
 	let x = (scrollTopC+750)*0.001;
 	function con(x){return -10*x+10;}
@@ -133,13 +133,39 @@ window.addEventListener('scroll', ()=>{
 	}
 	else{z_index11.style.display = 'none';}//コンセプト消す
 
-		
+	//vis_pc_2
+	let scrollTop2 = scrollTop-200;
+	let x2 = (scrollTop2+850)*0.001;
+	function wha(x2){return -10*x2+10;}
+	let xd2 = wha(x2);
+	z_index10.style.opacity =1;
+	z_index10.style.filter = "none";
+
+	if(scrollTopC>=0&&scrollTopC<1000){
+		z_index10.style.display = '';//表示
+		if(scrollTopC<150){
+			z_index10.style.opacity =scrollTopC/350;
+			z_index10.style.filter = "blur("+xd+"px)";
+		}//150pxは動かない
+		else if(scrollTopC>=150,scrollTopC<650){z_index10.style.transform = "scale( "+1+" , "+1+" )";}
+		else{
+			x2 = (scrollTopC-550)*0.01;
+			function wha(x2){return -9*x2+10;}
+			xd2 = wha(x2);
+			z_index10.style.transform = "scale( "+x2+" , "+x2+" )";
+			z_index10.style.filter = "blur("+2*x2+"px)";
+			z_index10.style.opacity =xd2;
+		}
+	}
+	else{z_index10.style.display = 'none';}//コンセプト消す
 	
-	//what
+	
+	
+	//concept
 	let scrollTopW = scrollTop-950;
 	let y = (scrollTopW+750)*0.001;
-	function wha(y){return -10*y+10;}
-	let yd = wha(y);
+	function con(y){return -10*y+10;}
+	let yd = con(y);
 	z_index5.style.opacity =1;
 	z_index5.style.filter = "none";
 	
@@ -180,7 +206,7 @@ window.addEventListener('scroll', ()=>{
 	else{
 		log.classList.remove('log2');
 		z_index1.classList.remove('ishoutenS');
-		//z_index0.classList.remove('infoS');
+		z_index0.classList.remove('infoS');
 		M.classList.remove("depout");
 	}
 
