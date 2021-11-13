@@ -131,7 +131,7 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 	transform: translateY(-50%);
 }
 .ishouten img{transition: ease 2.0s;}	/*2秒かけて動く*/
-.ishoutenS img{transform: translateY(-20vh)scale(1.5,1.5);}	/*上に50px移動、1.5倍拡大 1900pxまでスクロールすると追加される*/
+.ishoutenS img{transform: translateY(-20vh)scale(1.3,1.3);}	/*上に50px移動、1.5倍拡大 1900pxまでスクロールすると追加される*/
 .ishouten.ishoutenSc{	
 	padding-top: 0px;
 	position: fixed;}
