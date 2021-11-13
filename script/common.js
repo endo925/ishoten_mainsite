@@ -85,26 +85,26 @@ window.addEventListener('scroll', ()=>{
 		let z =(scrollTop+1000)*0.0003;
 		function f(z){return -10*z+10;}
 		let zd = f(z);
-		z_index1.style.filter = "blur("+zd+"px)";
-		z_index1.style.opacity = z;
+		z_index2.style.filter = "blur("+zd+"px)";
+		z_index2.style.opacity = z;
 		if(z<1){
-			z_index1.style.transform = "scale( "+z+" , "+z+" )";
-		} else{z_index1.style.transform = "scale( "+1+" , "+1+" )"}//1/1で止める
+			z_index2.style.transform = "scale( "+z+" , "+z+" )";
+		} else{z_index2.style.transform = "scale( "+1+" , "+1+" )"}//1/1で止める
 	} else {	//スマホ用
 		let z = (scrollTop+100)*0.01;
 		function f(z){return z-1;}
 		let zd = f(z);
 		if(scrollTop>=-15&&scrollTop<400){
-		z_index1.style.display = '';
-		z_index1.style.transform = "scale( "+z+" , "+z+" )";
-		z_index1.style.filter = "blur("+2*zd+"px)";
+		z_index2.style.display = '';
+		z_index2.style.transform = "scale( "+z+" , "+z+" )";
+		z_index2.style.filter = "blur("+2*zd+"px)";
 		}
-		else if(scrollTop>=400&&scrollTop<1800){z_index1.style.display = 'none';}
+		else if(scrollTop>=400&&scrollTop<1800){z_index2.style.display = 'none';}
 		else{
-			z_index1.style.display = '';
-			z_index1.style.filter = "blur("+0+"px)";
-			z_index1.style.opacity = 1;
-			z_index1.style.transform = "scale( "+1+" , "+1+" )";
+			z_index2.style.display = '';
+			z_index2.style.filter = "blur("+0+"px)";
+			z_index2.style.opacity = 1;
+			z_index2.style.transform = "scale( "+1+" , "+1+" )";
 		}
 	}
 	
@@ -191,7 +191,7 @@ window.addEventListener('scroll', ()=>{
 	const scroll=()=>{window.scrollBy(0, 1);} 	//y軸1ずつ自動スクロール
 	
 	if(scrollTop>1900){
-		z_index1.classList.add('ishoutenS');
+		z_index2.classList.add('ishoutenS');
 		if(scrollTop>2021){
 			log.classList.add('log2');
 			log0.textContent = 2022;
