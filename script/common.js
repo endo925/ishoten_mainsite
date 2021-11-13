@@ -40,7 +40,7 @@ if (window.performance.navigation.type === 1) {	//リロード時
 
 const z_index3 = document.getElementById("z-index3");
 const z_index5 = document.getElementById("z-index5");
-const z_index10 = document.getElementById("z-index10");
+const z_index2 = document.getElementById("z-index2");
 const z_index11 = document.getElementById("z-index11");
 const z_index0 = document.getElementById("z-index0");
 
@@ -57,7 +57,7 @@ const sinkSc= document.getElementsByClassName('sink')[0];
 sinkSc.classList.add('sinkSc');
 IshoutenSc.classList.add('ishoutenSc');
 
-z_index10.style.display = 'none';
+z_index2.style.display = 'none';
 z_index5.style.display = 'none';
 z_index11.style.display = 'none';
 if(window.innerWidth > window.innerHeight) {	//pc
@@ -139,23 +139,23 @@ window.addEventListener('scroll', ()=>{
 	let x2 = (scrollTop2+850)*0.001;
 	function wha(x2){return -10*x2+10;}
 	let xd2 = wha(x2);
-	z_index10.style.opacity =1;
-	z_index10.style.filter = "none";
+	z_index2.style.opacity =1;
+	z_index2.style.filter = "none";
 
 	if(scrollTopC>=0&&scrollTopC<1000){
-		z_index10.style.display = '';//表示
+		z_index2.style.display = '';//表示
 		if(scrollTopC<150){
-			z_index10.style.opacity =scrollTopC/350;
-			z_index10.style.filter = "blur("+xd+"px)";
+			z_index2.style.opacity =scrollTopC/350;
+			z_index2.style.filter = "blur("+xd+"px)";
 		}//150pxは動かない
-		else if(scrollTopC>=150,scrollTopC<650){z_index10.style.transform = "scale( "+1+" , "+1+" )";}
+		else if(scrollTopC>=150,scrollTopC<650){z_index2.style.transform = "scale( "+1+" , "+1+" )";}
 		else{
 			x2 = (scrollTopC-550)*0.01;
-			z_index10.style.transform = "scale( "+x2+" , "+x2+" )";
-			z_index10.style.filter = "blur("+2*x2+"px)";
+			z_index2.style.transform = "scale( "+x2+" , "+x2+" )";
+			z_index2.style.filter = "blur("+2*x2+"px)";
 		}
 	}
-	else{z_index10.style.display = 'none';}//コンセプト消す
+	else{z_index2.style.display = 'none';}//コンセプト消す
 	
 	
 	
