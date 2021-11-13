@@ -38,13 +38,13 @@ if (window.performance.navigation.type === 1) {	//リロード時
 	}, 50);
 }
 
-const z_index1 = document.getElementById("z-index1");
+const z_index2 = document.getElementById("z-index2");
 const z_index5 = document.getElementById("z-index5");
 const z_index10 = document.getElementById("z-index10");
 const z_index11 = document.getElementById("z-index11");
 const z_index0 = document.getElementById("z-index0");
 
-const z1 = document.getElementById("z-index1");
+const z1 = document.getElementById("z-index2");
 const z1_style = z1.style;
 z1_style.transform = "scale( "+0.5+" , "+0.5+" )";	//意匠展縮小
 
@@ -61,13 +61,13 @@ z_index10.style.display = 'none';
 z_index5.style.display = 'none';
 z_index11.style.display = 'none';
 if(window.innerWidth > window.innerHeight) {	//pc
-	z_index1.style.opacity = 0.3;
-	z_index1.style.transform = "scale( "+0.3+" , "+0.3+" )";
-	z_index1.style.filter = "blur("+10+"px)";
+	z_index2.style.opacity = 0.3;
+	z_index2.style.transform = "scale( "+0.3+" , "+0.3+" )";
+	z_index2.style.filter = "blur("+10+"px)";
 }
 else{	//スマホ
-	z_index1.style.opacity = 1;
-	z_index1.style.transform = "scale( "+1+" , "+1+" )";
+	z_index2.style.opacity = 1;
+	z_index2.style.transform = "scale( "+1+" , "+1+" )";
 }
 const log = document.getElementById('log');	//scroll:0
 
@@ -203,7 +203,7 @@ window.addEventListener('scroll', ()=>{
 	}
 	else{
 		log.classList.remove('log2');
-		z_index1.classList.remove('ishoutenS');
+		z_index2.classList.remove('ishoutenS');
 		z_index0.classList.remove('infoS');
 		M.classList.remove("depout");
 	}
