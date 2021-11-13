@@ -40,7 +40,7 @@ if (window.performance.navigation.type === 1) {	//リロード時
 
 const z_index2 = document.getElementById("z-index2");
 const z_index3 = document.getElementById("z-index3");
-const z_index5 = document.getElementById("z-index5");
+const z_index6 = document.getElementById("z-index6");
 const z_index11 = document.getElementById("z-index11");
 
 const z3 = document.getElementById("z-index3");
@@ -57,7 +57,7 @@ sinkSc.classList.add('sinkSc');
 IshoutenSc.classList.add('ishoutenSc');
 
 z_index2.style.display = 'none';
-z_index5.style.display = 'none';
+z_index6.style.display = 'none';
 z_index11.style.display = 'none';
 if(window.innerWidth > window.innerHeight) {	//pc
 	z_index3.style.opacity = 0.3;
@@ -163,27 +163,27 @@ window.addEventListener('scroll', ()=>{
 	let y = (scrollTopC+750)*0.001;
 	function con(y){return -10*y+10;}
 	let yd = con(y);
-	z_index5.style.opacity =1;
-	z_index5.style.filter = "none";
+	z_index6.style.opacity =1;
+	z_index6.style.filter = "none";
 	
 	if(scrollTopC>=0&&scrollTopC<900){
-		z_index5.style.display = '';
+		z_index6.style.display = '';
 		if(scrollTopC<150){
-			z_index5.style.opacity =scrollTopC/350;
-			z_index5.style.transform = "scale( "+0.9+" , "+0.9+" )";
-			z_index5.style.filter = "blur("+yd+"px)";
+			z_index6.style.opacity =scrollTopC/350;
+			z_index6.style.transform = "scale( "+0.9+" , "+0.9+" )";
+			z_index6.style.filter = "blur("+yd+"px)";
 		}//150pxは動かない
 		else if(scrollTopC>=150,scrollTopC<250){
-			z_index5.style.transform = "scale( "+y+" , "+y+" )";
+			z_index6.style.transform = "scale( "+y+" , "+y+" )";
 		}
-		else if(scrollTopC>=250,scrollTopC<650){z_index5.style.transform = "scale( "+1+" , "+1+" )";}
+		else if(scrollTopC>=250,scrollTopC<650){z_index6.style.transform = "scale( "+1+" , "+1+" )";}
 		else{
 			y = (scrollTopC-550)*0.01;
-			z_index5.style.transform = "scale( "+y+" , "+y+" )";
-			z_index5.style.filter = "blur("+2*y+"px)";
+			z_index6.style.transform = "scale( "+y+" , "+y+" )";
+			z_index6.style.filter = "blur("+2*y+"px)";
 		}
 	}
-	else{z_index5.style.display = 'none';}
+	else{z_index6.style.display = 'none';}
 	
 	//vis_pc_3
 	//let scrollTop3 = scrollTop-950;
