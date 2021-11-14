@@ -140,7 +140,7 @@ window.addEventListener('scroll', ()=>{
 	let x2 = (scrollTop2+850)*0.001;
 	function wha(x2){return -10*x2+10;}
 	let xd2 = wha(x2);
-	z_index2.style.opacity =1;
+	z_index2.style.opacity =0.7;
 	z_index2.style.filter = "none";
 
 	if(scrollTop2>=0&&scrollTop2<1000){
@@ -192,7 +192,7 @@ window.addEventListener('scroll', ()=>{
 	let y3 = (scrollTop3+750)*0.001;
 	function con(y3){return -10*y3+10;}
 	let yd3 = con(y3);
-	z_index3.style.opacity =1;
+	z_index3.style.opacity =0.7;
 	z_index3.style.filter = "none";
 	
 	if(scrollTop3>=0&&scrollTop3<900){
