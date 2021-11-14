@@ -211,7 +211,7 @@ window.addEventListener('scroll', ()=>{
 	}
 	
 	let scrollTopB = scrollTop-1500;
-	let t = (scrollTopC+750)*0.001;
+	let t = (scrollTopB+750)*0.001;
 	function con(t){return -10*t+10;}
 	let td = con(t);
 	z_index1.style.opacity =1;
