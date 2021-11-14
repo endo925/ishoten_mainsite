@@ -59,6 +59,7 @@ const sinkSc= document.getElementsByClassName('sink')[0];
 sinkSc.classList.add('sinkSc');
 IshoutenSc.classList.add('ishoutenSc');
 
+z_index0.style.display = 'none';
 z_index2.style.display = 'none';
 z_index3.style.display = 'none';
 z_index6.style.display = 'none';
