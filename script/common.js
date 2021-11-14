@@ -117,46 +117,38 @@ window.addEventListener('scroll', ()=>{
 	let xd = con(x);
 	z_index11.style.opacity =1;
 	z_index11.style.filter = "none";
+	
+	
+	//vis_pc_2
+	z_index2.style.opacity =0.7;
 
 	if(scrollTopW>=0&&scrollTopW<1000){
+		z_index2.style.display = '';//表示
 		z_index11.style.display = '';//表示
 		if(scrollTopW<150){
 			z_index11.style.opacity =scrollTopW/350;
 			z_index11.style.transform = "scale( "+0.9+" , "+0.9+" )";
 			z_index11.style.filter = "blur("+xd+"px)";
+			
+			z_index2.style.opacity =scrollTopW/350;
+			z_index2.style.filter = "blur("+xd+"px)";
 		}//150pxは動かない
-		else if(scrollTopW>=150,scrollTopW<250){z_index11.style.transform = "scale( "+x+" , "+x+" )";}
+		else if(scrollTopW>=150,scrollTopW<250){z_index11.style.transform = "scale( "+x+" , "+x+" )";z_index11.style.filter = "blur("+xd+"px)";
+							z_index2.style.transform = "scale( "+1+" , "+1+" )";z_index2.style.filter = "blur("+xd+"px)";}
 		else if(scrollTopW>=250,scrollTopW<650){z_index11.style.transform = "scale( "+1+" , "+1+" )";}
 		else{
 			x = (scrollTopW-550)*0.01;
 			z_index11.style.transform = "scale( "+x+" , "+x+" )";
 			z_index11.style.filter = "blur("+2*x+"px)";
+			
+			z_index2.style.transform = "scale( "+x+" , "+x+" )";
+			z_index2.style.filter = "blur("+2*x+"px)";
 		}
 	}
-	else{z_index11.style.display = 'none';}//コンセプト消す
-
-	//vis_pc_2
-	let scrollTop2 = scrollTop-200;
-	let x2 = (scrollTop2+850)*0.001;
-	function wha(x2){return -10*x2+10;}
-	let xd2 = wha(x2);
-	z_index2.style.opacity =0.7;
-	z_index2.style.filter = "none";
-
-	if(scrollTop2>=0&&scrollTop2<1000){
-		z_index2.style.display = '';//表示
-		if(scrollTop2<150){
-			z_index2.style.opacity =scrollTop2/350;
-			z_index2.style.filter = "blur("+xd2+"px)";
-		}//150pxは動かない
-		else if(scrollTop2>=150,scrollTop2<650){z_index2.style.transform = "scale( "+1+" , "+1+" )";}
-		else{
-			x2 = (scrollTop2-550)*0.01;
-			z_index2.style.transform = "scale( "+x2+" , "+x2+" )";
-			z_index2.style.filter = "blur("+2*x2+"px)";
-		}
-	}
-	else{z_index2.style.display = 'none';}//コンセプト消す
+	else{
+	    z_index11.style.display = 'none';
+	    z_index2.style.display = 'none';
+	    }//コンセプト消す
 	
 	
 	
