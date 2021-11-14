@@ -220,7 +220,7 @@ window.addEventListener('scroll', ()=>{
 	
 	if(scrollTopB>=0&&scrollTopB<2000){
 		z_index0.style.display = '';//表示
-		if(scrollTopB<150){
+		if(scrollTopB<250){
 			z_index0.style.opacity =scrollTopB/350;
 			z_index0.style.filter = "blur("+td+"px)";
 		}
