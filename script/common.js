@@ -222,7 +222,7 @@ window.addEventListener('scroll', ()=>{
 		z_index0.style.display = '';//表示
 		if(scrollTopB<150){
 			z_index0.style.opacity =scrollTopB/350;
-			z_index0.style.filter = "blur("+yd+"px)";
+			z_index0.style.filter = "blur("+td+"px)";
 		}
 		else{z_index0.style.transform = "scale( "+1+" , "+1+" )";}
 	}
