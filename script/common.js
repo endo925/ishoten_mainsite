@@ -113,10 +113,15 @@ window.addEventListener('scroll', ()=>{
 		}
 	}
 	
-	let z2 = (scrollTop+100)*0.01;
+	let z2 = (scrollTop-100)*0.01;
+	z_index1.style.opacity = 0.7;
+	z_index1.style.filter = "none";
+
+	if(scrollTop<200){
+	z_index1.style.display = '';
 	z_index1.style.transform = "scale( "+1+" , "+1+" )";
-	if(scrollTop>=400&&scrollTop<1000){
-		z_index1.style.display = '';
+	}
+	else if(scrollTop>=200&&scrollTop<500){
 		z_index1.style.transform = "scale( "+z2+" , "+z2+" )";
 		z_index1.style.filter = "blur("+2*z2+"px)";
 	}else{z_index1.style.display = 'none';}
