@@ -225,6 +225,7 @@ window.addEventListener('scroll', ()=>{
 		}
 		else{z_index1.style.transform = "scale( "+1+" , "+1+" )";}
 	}
+	else{z_index1.style.display = 'none';}
 	
 		
 	//意匠展、開催概要
