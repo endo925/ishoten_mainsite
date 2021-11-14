@@ -95,7 +95,6 @@ window.addEventListener('scroll', ()=>{
 		z_index5.style.opacity = z;
 		
 		z_index1.style.filter = "blur("+zd+"px)";
-		z_index1.style.opacity = 0.7;
 		if(z<1){
 			z_index5.style.transform = "scale( "+z+" , "+z+" )";
 		} else{z_index5.style.transform = "scale( "+1+" , "+1+" )"}//1/1で止める
