@@ -126,7 +126,7 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 	padding-top: 0px;
 	position: fixed;}
 
-#z-index1{z-index: 1;}/*vis_pc_1*/
+#z-index1{z-index: 1;opacity: 0.7;}/*vis_pc_1*/
 #z-index2{z-index: 2;}/*vis_pc_2*/
 #z-index3{z-index: 3;}/*vis_pc_3*/
 #z-index5{z-index: 5;}/*意匠展ロゴ*/
