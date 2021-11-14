@@ -181,8 +181,8 @@ window.addEventListener('scroll', ()=>{
 	z_index6.style.filter = "none";
 	
 	//vis_pc_3
-	z_index2.style.opacity =0.7;
-	z_index11.style.filter = "none";
+	z_index3.style.opacity =0.7;
+	z_index3.style.filter = "none";
 	
 	if(scrollTopC>=0&&scrollTopC<900){
 		z_index6.style.display = '';
