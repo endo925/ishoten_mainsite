@@ -166,7 +166,7 @@ window.addEventListener('scroll', ()=>{
 	else{
 	    z_index11.style.display = 'none';
 	    z_index2.style.display = 'none';
-	    }//コンセプト消す
+	}//コンセプト消す
 	
 	
 	
@@ -178,47 +178,38 @@ window.addEventListener('scroll', ()=>{
 	z_index6.style.opacity =1;
 	z_index6.style.filter = "none";
 	
+	//vis_pc_3
+	z_index2.style.opacity =0.7;
+	z_index11.style.filter = "none";
+	
 	if(scrollTopC>=0&&scrollTopC<900){
 		z_index6.style.display = '';
+		z_index3.style.display = '';
 		if(scrollTopC<150){
 			z_index6.style.opacity =scrollTopC/350;
 			z_index6.style.transform = "scale( "+0.9+" , "+0.9+" )";
 			z_index6.style.filter = "blur("+yd+"px)";
+			
+			z_index3.style.opacity =scrollTopC/350;
+			z_index3.style.filter = "blur("+yd+"px)";
 		}//150pxは動かない
-		else if(scrollTopC>=150,scrollTopC<250){
-			z_index6.style.transform = "scale( "+y+" , "+y+" )";
-		}
+		else if(scrollTopC>=150,scrollTopC<250){z_index6.style.transform = "scale( "+y+" , "+y+" )";z_index6.style.filter = "blur("+yd+"px)";
+						        z_index3.style.transform = "scale( "+1+" , "+1+" )";z_index3.style.filter = "blur("+yd+"px)";}
 		else if(scrollTopC>=250,scrollTopC<650){z_index6.style.transform = "scale( "+1+" , "+1+" )";}
 		else{
 			y = (scrollTopC-550)*0.01;
 			z_index6.style.transform = "scale( "+y+" , "+y+" )";
 			z_index6.style.filter = "blur("+2*y+"px)";
+			
+			z_index3.style.transform = "scale( "+y+" , "+y+" )";
+			z_index3.style.filter = "blur("+2*y+"px)";
 		}
 	}
-	else{z_index6.style.display = 'none';}
-	
-	//vis_pc_3
-	let scrollTop3 = scrollTop-950;
-	let y3 = (scrollTop3+750)*0.001;
-	function con(y3){return -10*y3+10;}
-	let yd3 = con(y3);
-	z_index3.style.opacity =0.7;
-	z_index3.style.filter = "none";
-	
-	if(scrollTop3>=0&&scrollTop3<900){
-		z_index3.style.display = '';
-		if(scrollTop3<150){
-			z_index3.style.opacity =scrollTop3/350;
-			z_index3.style.filter = "blur("+yd3+"px)";
-		}//150pxは動かない
-		else if(scrollTop3>=150,scrollTop3<650){z_index3.style.transform = "scale( "+1+" , "+1+" )";}
-		else{
-			y3 = (scrollTop3-550)*0.01;
-			z_index3.style.transform = "scale( "+y3+" , "+y3+" )";
-			z_index3.style.filter = "blur("+2*y3+"px)";
-		}
+	else{
+	    z_index6.style.display = 'none';
+	    z_index3.style.display = 'none';
 	}
-	else{z_index3.style.display = 'none';}
+	
 	
 	
 	//意匠展、開催概要
