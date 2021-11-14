@@ -143,13 +143,13 @@ window.addEventListener('scroll', ()=>{
 	z_index2.style.opacity =1;
 	z_index2.style.filter = "none";
 
-	if(scrollTopC>=0&&scrollTopC<1000){
+	if(scrollTop2>=0&&scrollTop2<1000){
 		z_index2.style.display = '';//表示
-		if(scrollTopC<150){
+		if(scrollTop2<150){
 			z_index2.style.opacity =scrollTop2/350;
 			z_index2.style.filter = "blur("+xd2+"px)";
 		}//150pxは動かない
-		else if(scrollTopC>=150,scrollTopC<650){z_index2.style.transform = "scale( "+1+" , "+1+" )";}
+		else if(scrollTop2>=150,scrollTop2<650){z_index2.style.transform = "scale( "+1+" , "+1+" )";}
 		else{
 			x2 = (scrollTop2-550)*0.01;
 			z_index2.style.transform = "scale( "+x2+" , "+x2+" )";
