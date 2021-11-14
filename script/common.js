@@ -94,9 +94,7 @@ window.addEventListener('scroll', ()=>{
 		z_index1.style.opacity = 0.7;
 		if(z<1){
 			z_index5.style.transform = "scale( "+z+" , "+z+" )";
-			z_index1.style.transform = "scale( "+z+" , "+z+" )";
-		} else{z_index5.style.transform = "scale( "+1+" , "+1+" )"
-		       z_index1.style.transform = "scale( "+1+" , "+1+" )"}//1/1で止める
+		} else{z_index5.style.transform = "scale( "+1+" , "+1+" )"}//1/1で止める
 	} else {	//スマホ用
 		let z = (scrollTop+100)*0.01;
 		function f(z){return z-1;}
@@ -114,6 +112,12 @@ window.addEventListener('scroll', ()=>{
 			z_index5.style.transform = "scale( "+1+" , "+1+" )";
 		}
 	}
+	
+	let z2 = (scrolltop+100)*0.01;
+	if(scrollTop>=400&&scrollTop<1000){
+		z_index1.style.transform = "scale( "+z2+" , "+z2+" )";
+		z_index1.style.filter = "blur("+2*z2+"px)";
+	}else{z_index1.style.display = 'none';}
 	
 	
 	//what
