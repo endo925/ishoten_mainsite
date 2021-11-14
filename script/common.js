@@ -211,11 +211,11 @@ window.addEventListener('scroll', ()=>{
 	    z_index3.style.display = 'none';
 	}
 	
+	//vis_pc_4
 	let scrollTopB = scrollTop-1500;
 	let t = (scrollTopB+750)*0.001;
 	function con(t){return -10*t+10;}
 	let td = con(t);
-	z_index0.style.opacity =1;
 	z_index0.style.filter = "none";
 	
 	if(scrollTopB>=0&&scrollTopB<2000){
