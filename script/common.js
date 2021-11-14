@@ -116,7 +116,6 @@ window.addEventListener('scroll', ()=>{
 	}
 	
 	let z2 = (scrollTop-100)*0.01;
-	z_index1.style.opacity = 0.7;
 	z_index1.style.filter = "none";
 
 	if(scrollTop<200){
@@ -219,7 +218,7 @@ window.addEventListener('scroll', ()=>{
 	z_index0.style.opacity =1;
 	z_index0.style.filter = "none";
 	
-	if(scrollTopB>=0&&scrollTopB<1000){
+	if(scrollTopB>=0&&scrollTopB<2000){
 		z_index0.style.display = '';//表示
 		if(scrollTopB<150){
 			z_index0.style.opacity =scrollTopB/350;
