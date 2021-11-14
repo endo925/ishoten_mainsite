@@ -88,9 +88,14 @@ window.addEventListener('scroll', ()=>{
 		let zd = f(z);
 		z_index5.style.filter = "blur("+zd+"px)";
 		z_index5.style.opacity = z;
+		
+		z_index1.style.filter = "blur("+zd+"px)";
+		z_index1.style.opacity = 0.7;
 		if(z<1){
 			z_index5.style.transform = "scale( "+z+" , "+z+" )";
-		} else{z_index5.style.transform = "scale( "+1+" , "+1+" )"}//1/1で止める
+			z_index1.style.transform = "scale( "+z+" , "+z+" )";
+		} else{z_index5.style.transform = "scale( "+1+" , "+1+" )"
+		       z_index1.style.transform = "scale( "+1+" , "+1+" )"}//1/1で止める
 	} else {	//スマホ用
 		let z = (scrollTop+100)*0.01;
 		function f(z){return z-1;}
@@ -121,7 +126,8 @@ window.addEventListener('scroll', ()=>{
 	
 	//vis_pc_2
 	z_index2.style.opacity =0.7;
-
+	z_index11.style.filter = "none";
+	
 	if(scrollTopW>=0&&scrollTopW<1000){
 		z_index2.style.display = '';//表示
 		z_index11.style.display = '';//表示
