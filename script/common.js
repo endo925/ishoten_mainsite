@@ -252,6 +252,7 @@ window.addEventListener('scroll', ()=>{
 	}
 
 	if(scrollTop>3200){
+		z_index0.classList.remove('layer');
 		ImgPa.classList.remove('imgSc');			//css:line:38
 		Img.classList.remove('imgSc');				//css:line:37
 		IshoutenSc.classList.remove('ishoutenSc');	//css:line:60
@@ -259,6 +260,7 @@ window.addEventListener('scroll', ()=>{
 		sinkSc.classList.remove('sinkSc');			//css:line:90
 	}
 	else{
+		z_index0.classList.add('layer');
 		ImgPa.classList.add('imgSc');
 		Img.classList.add('imgSc');
 		IshoutenSc.classList.add('ishoutenSc');
