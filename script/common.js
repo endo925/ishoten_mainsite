@@ -38,6 +38,7 @@ if (window.performance.navigation.type === 1) {	//リロード時
 	}, 50);
 }
 
+const z_index0 = document.getElementById("z-index0");
 const z_index1 = document.getElementById("z-index1");
 const z_index2 = document.getElementById("z-index2");
 const z_index3 = document.getElementById("z-index3");
@@ -214,18 +215,18 @@ window.addEventListener('scroll', ()=>{
 	let t = (scrollTopB+750)*0.001;
 	function con(t){return -10*t+10;}
 	let td = con(t);
-	z_index1.style.opacity =1;
-	z_index1.style.filter = "none";
+	z_index0.style.opacity =1;
+	z_index0.style.filter = "none";
 	
 	if(scrollTopB>=0&&scrollTopB<1000){
-		z_index1.style.display = '';//表示
+		z_index0.style.display = '';//表示
 		if(scrollTopB<150){
-			z_index1.style.opacity =scrollTopB/350;
-			z_index1.style.filter = "blur("+yd+"px)";
+			z_index0.style.opacity =scrollTopB/350;
+			z_index0.style.filter = "blur("+yd+"px)";
 		}
-		else{z_index1.style.transform = "scale( "+1+" , "+1+" )";}
+		else{z_index0.style.transform = "scale( "+1+" , "+1+" )";}
 	}
-	else{z_index1.style.display = 'none';}
+	else{z_index0.style.display = 'none';}
 	
 		
 	//意匠展、開催概要
