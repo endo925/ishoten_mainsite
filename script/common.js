@@ -113,7 +113,8 @@ window.addEventListener('scroll', ()=>{
 		}
 	}
 	
-	let z2 = (scrollTop+100)*0.001;
+	let z2 = (scrollTop+100)*0.01;
+	z_index1.style.transform = "scale( "+1+" , "+1+" )";
 	if(scrollTop>=400&&scrollTop<1000){
 		z_index1.style.display = '';
 		z_index1.style.transform = "scale( "+z2+" , "+z2+" )";
