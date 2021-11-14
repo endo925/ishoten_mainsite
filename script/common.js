@@ -210,8 +210,23 @@ window.addEventListener('scroll', ()=>{
 	    z_index3.style.display = 'none';
 	}
 	
+	let scrollTopB = scrollTop-1500;
+	let t = (scrollTopC+750)*0.001;
+	function con(t){return -10*t+10;}
+	let td = con(t);
+	z_index1.style.opacity =1;
+	z_index1.style.filter = "none";
 	
+	if(scrollTopB>=0&&scrollTopB<1000){
+		z_index1.style.display = '';//表示
+		if(scrollTopB<150){
+			z_index1.style.opacity =scrollTopB/350;
+			z_index1.style.filter = "blur("+yd+"px)";
+		}
+		else{z_index1.style.transform = "scale( "+1+" , "+1+" )";}
+	}
 	
+		
 	//意匠展、開催概要
 	const M = document.getElementById("M");
 	const scroll=()=>{window.scrollBy(0, 1);} 	//y軸1ずつ自動スクロール
