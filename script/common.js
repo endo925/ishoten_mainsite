@@ -115,7 +115,7 @@ window.addEventListener('scroll', ()=>{
 	
 	let z2 = (scrollTop+100)*0.01;
 	if(scrollTop>=400&&scrollTop<1000){
-		z_index2.style.display = ''
+		z_index1.style.display = '';
 		z_index1.style.transform = "scale( "+z2+" , "+z2+" )";
 		z_index1.style.filter = "blur("+2*z2+"px)";
 	}else{z_index1.style.display = 'none';}
