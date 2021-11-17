@@ -292,6 +292,10 @@ img [class^="vis_sp_"]{display:block;}
 .kenkyuushitsu {
 	width: 20vw;
 }
+#kenkyu label {
+	position: relative;
+	left: 60%;
+}
 
 /*画像pc用*/
 .img_pc {
