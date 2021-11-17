@@ -371,8 +371,8 @@ body {
 
 /*フッター*/
 #footer {
-	display: inline;
 	width: 100%;
+	text-align: center;
 }
 #footer img {
 	height: 3vh;
