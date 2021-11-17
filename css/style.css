@@ -266,6 +266,29 @@ img [class^="vis_sp_"]{display:block;}
 	text-align: center;
 	font-size: 3em;
 }
+/*研究室紹介*/
+#kenkyu input[name="tab_item"] {
+	display: none;
+}
+.tab_content {
+	display: none;
+}
+#seihin:checked ~ #seihimn_contnet,
+#sisupura:checked ~ #sisupura_contnet,
+#maneji:checked ~ #maneji_contnet,
+#zairyou:checked ~ #zairyou_contnet,
+#ishou:checked ~ #ishou_contnet,
+#komyu:checked ~ #komyu_contnet,
+#ninjou:checked ~ #ninjou_contnet,
+#shinri:checked ~ #shinri_contnet,
+#koma:checked ~ #koma_contnet,
+#kankyou:checked ~ #kankyou_contnet,
+#ninkou:checked ~ #ninkou_contnet,
+#bunka:checked ~ #bunka_contnet,
+#konteku:checked ~ #konteku_contnet,
+#sasute:checked ~ #sasute_contnet {
+	display: block;
+}
 
 /*画像pc用*/
 .img_pc {
