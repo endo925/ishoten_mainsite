@@ -256,9 +256,10 @@ window.addEventListener('scroll', ()=>{
 		Last_back.classList.remove('last_backSc');
 		ImgPa.classList.remove('imgSc');			//css:line:38
 		Img.classList.remove('imgSc');				//css:line:37
-		IshoutenSc.classList.remove('ishoutenSc');	//css:line:60
+		//IshoutenSc.classList.remove('ishoutenSc');	//css:line:60
 		//InfoSc.classList.remove('infoSc');			//css:line:75
 		sinkSc.classList.remove('sinkSc');			//css:line:90
+		IshoutenSc.style.position = "static";
 	}
 	else{
 		Last_back.classList.add('last_backSc');
