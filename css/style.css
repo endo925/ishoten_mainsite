@@ -242,6 +242,7 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 
 /*本文*/
 #honbun {
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 1.0) );
 	margin-top: 2600px;
 	width: 100%;
 	position: absolute;
