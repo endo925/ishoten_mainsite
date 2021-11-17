@@ -390,7 +390,7 @@ body {
     margin-right: 1rem
 }
 .kaijyo::after {
-    content: "　";
+    content: "\A　";
     white-space: pre;
 }
 #kaisaigaiyo_text_honbun {
