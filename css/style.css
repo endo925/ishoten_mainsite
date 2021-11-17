@@ -252,12 +252,15 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 #header img {
 	height: 3vh;
 }
-.header_inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 5rem;
-}
+ .header_inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1080px;
+    margin: 0 auto;
+    height: 7rem;
+  }
+
 .pc-nav-list {
   display: flex;
   align-items: center;
