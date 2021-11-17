@@ -376,8 +376,13 @@ body {
     text-align:center;
 }
 #kaisaigaiyo_text{
-	display:flex;
-	flex-direction:row;
+	display: inline-flex;
+}
+#kaisaigaiyo_text_title {
+    text-align: right;
+}
+#kaisaigaiyo_text_honbun {
+    text-align: left;
 }
 
 /*協賛企業*/
