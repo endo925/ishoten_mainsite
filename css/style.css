@@ -293,6 +293,7 @@ img [class^="vis_sp_"]{display:block;}
 #kenkyu label {
 	position: relative;
 	left: 60%;
+	display: block;
 }
 
 /*画像pc用*/
