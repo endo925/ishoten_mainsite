@@ -374,12 +374,19 @@ body {
 }
 
 /*フッター*/
-#footer {
-	width: 100%;
-	text-align: center;
-}
+#footer{text-align:center;}
+#footer h5{
+	display:inline-block;
+	font-size:2rem;
+	font-weight: 100;
+	letter-spacing:0.2rem;
+	font-family:Times;
+    margin: 0 0 10vh 2vw;
+	}
 #footer img {
-	height: 3vh;
+	display:inline-block;
+	height: 2.5vh;
+	transform:translateY(10%);
 }
 
 /*画像pc用*/
