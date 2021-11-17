@@ -267,6 +267,8 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
  }
  .tab_content {
  	display: none;
+	position: relative;
+	top: 0%;
  }
  #seihin:checked ~ #seihin_content,
  #sisupura:checked ~ #sisupura_content,
