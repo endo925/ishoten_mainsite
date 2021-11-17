@@ -290,7 +290,7 @@ body {
 .icon img{height: 2.3rem;}
 /*文章*/
 .contents {
-	padding: 10vh 23vw 0 23vw;
+	padding: 10vh 20vw 0 20vw;
     	margin-top: -5vh;
 	position: relative;
 	height: 90vh;
@@ -335,7 +335,7 @@ body {
  	display: none;
 	position: absolute;
 	top: 0%;
-	width: 57.8%;
+	width: 60%;
  }
 .tab_content h4 {
     	letter-spacing:0.2rem;
@@ -367,7 +367,7 @@ body {
  	display: block;
  }
 .kenkyu_img {
-	width: 31vw;
+	width: 100%;
 }
 .kenkyu_img img {
 	width: 100%;
