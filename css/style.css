@@ -364,7 +364,7 @@ body {
 	position: relative;
 	left: 70%;
 	display: block;
-	margin-bottom: 1.7rem;
+	margin-bottom: 2.35vh;
 }
 .tabs input:checked + .tab_item::before {
     position: absolute;
