@@ -150,7 +150,6 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 .ishouten img{transition: ease 2.0s;}	/*2秒かけて動く*/
 .ishoutenS img{transform: translateY(-5vh)scale(1.5,1.5);}	/*上に50px移動、1.5倍拡大 1900pxまでスクロールすると追加される*/
 .ishouten.ishoutenSc{
-	translateY(-5vh)scale(1.5,1.5);
 	padding-top: 0px;
 	position: fixed;}
 
