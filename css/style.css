@@ -250,6 +250,7 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 	top: 100%;
 }
 /*ヘッダー*/
+#header {background: linear-gradient(180deg, rgba(0, 0, 0, 0.0), rgba(1.0, 0, 0, 0) );}
 #header img {
 	height: 3vh;
 }
