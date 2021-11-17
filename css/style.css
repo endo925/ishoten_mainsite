@@ -289,6 +289,9 @@ img [class^="vis_sp_"]{display:block;}
  #sasute:checked ~ #sasute_content {
  	display: block;
  }
+.kenkyuushitsu {
+	width: 20vw;
+}
 
 /*画像pc用*/
 .img_pc {
