@@ -240,6 +240,11 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 	transform: translate(0%,-50%);
 }
 
+/*本文*/
+#honbun {
+	margin-top: 3200px;
+}
+
 /*画像pc用*/
 .img_pc {
 	display: block;
