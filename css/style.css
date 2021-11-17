@@ -131,7 +131,9 @@ img [class^="vis_sp_"]{display:block;}
 	opacity: 0.7;
 }/*vis_pc_4*/
 .last_back{	
-	padding-top: 0px;
+	height: 100%;
+	position: relative;
+	width: 100%;
 	position: fixed;}
 
 #z-index1{z-index: 1;opacity: 0.7;}/*vis_pc_1*/
