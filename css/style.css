@@ -485,9 +485,9 @@ h5 {
         	display: none;
     	}
     	.contents {
-        	height: 80vh;
-        	margin: 5vw;
-    	}
+		padding: 10vh 5vw 0 5vw;
+		height: 90vh;
+	}
     	.tabs {
         	display: flex;
         	overflow-x: scroll;
