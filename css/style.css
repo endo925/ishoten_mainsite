@@ -293,7 +293,7 @@ body {
 .contents {
 	margin: 23vw;
 	position: relative;
-	height: 60vh;
+	height: 110vh;
 }
 .menu {
 	width: 100%;
@@ -301,12 +301,13 @@ body {
 	font-size: 3em;
 	position: absolute;
 	top: -20%;
+	padding-bottom: 30px;
 }
 .menu::after {
     content: '';
     display: inline-block;
     width: 50px;
-    height: 2px;
+    height: 1px;
     background-color: #fff;
     position: absolute;
     top: 120%;
@@ -321,13 +322,20 @@ body {
  	display: none;
 	position: absolute;
 	top: 0%;
-	width: 50%;
+	width: 57.8%;
  }
 .tab_content h4 {
-    font-size: 2.5rem;
+    	letter-spacing:0.2rem;
+ 	font-weight:600;
+    	font-size: 2rem;
+	padding-top: 3vh;
 }
 .tab_content h5 {
-    font-size: 1rem;
+ 	text-align: justify;
+	text-justify: inter-ideograph;
+	font-weight:100;
+	font-size: 1.2rem;
+	line-height:2.5rem;
 }
  #seihin:checked ~ #seihin_content,
  #sisupura:checked ~ #sisupura_content,
@@ -346,17 +354,17 @@ body {
  	display: block;
  }
 .kenkyu_img {
-	width: 30vw;
+	width: 31vw;
 }
 .kenkyu_img img {
 	width: 100%;
 }
 .tab_item {
-	font-size: 1.5rem;
+	font-size: 1.4rem;
 	position: relative;
 	left: 70%;
 	display: block;
-	margin-bottom: 1.19rem;
+	margin-bottom: 1.7rem;
 }
 .tabs input:checked + .tab_item::before {
     position: absolute;
