@@ -287,8 +287,12 @@ img [class^="vis_sp_"]{display:block;}
  #sasute:checked ~ #sasute_content {
  	display: block;
  }
-.kenkyu_img img {
+.kenkyu_img {
 	width: 20vw;
+}
+.kenkyu_img img {
+	width: 100%;
+	height: auto;
 }
 #kenkyu label {
 	position: relative;
