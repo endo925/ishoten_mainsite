@@ -376,6 +376,10 @@ body {
 	display: none;
 }
 
+h5 {
+	font-family: "ヒラギノ角ゴ Pro","遊ゴシック",sans-serif;
+}
+
 /*スマホ用(縦長のとき)*/
 @media (orientation: portrait) {
 	/*画像*/
