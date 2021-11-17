@@ -255,9 +255,16 @@ img [class^="vis_sp_"]{display:block;}
 #honbun img {
 	height: 3vh;
 }
+/*ヘッダー*/
 #header a {
 	font-size: 1em;
 	text-decoration: none;
+}
+/*文章*/
+.menu {
+	width: 100%;
+	text-align: center;
+	font-size: 3em;
 }
 
 /*画像pc用*/
