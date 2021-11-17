@@ -256,6 +256,9 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 	text-decoration: none;
 }
 /*文章*/
+.contents {
+	margin: 10vw;
+}
 .menu {
 	width: 100%;
 	text-align: center;
