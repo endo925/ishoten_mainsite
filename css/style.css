@@ -257,16 +257,17 @@ body {
 }
 /*ヘッダー*/
 #header {background: linear-gradient(180deg, rgba(0, 0, 0, 1)0%,rgba(0, 0, 0, 0.8)30%, rgba(0, 0, 0, 0)100% );}
-#header img {
-	height: 3vh;
+.header_img {
+	height: 2.5vh;
 }
  .header_inner {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1080px;
-    margin: 0 auto;
+    width:  95vw;
+    margin: 0 7rem;
     height: 7rem;
+    list-style: none;
   }
 
 .pc-nav-list {
@@ -275,12 +276,10 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  list-style: none;
 }
 .pc-nav-list li {
-  font-family{"ヒラギノ角ゴ Pro","遊ゴシック",sans-serif}
-  margin: 0 0 0 5rem;
-  font-size: 2rem;
+  margin: 0 5rem 0 0;
+  font-size: 1.5rem;
 }
 
 /*文章*/
