@@ -449,4 +449,28 @@ h5 {
 		width: 60%;
 	}
 	.infoS {transform: translate(-50%,-141%); opacity:1;filter: blur(0px);}*/
+	/*本文*/
+    	.pc-nav {
+        	display: none;
+    	}
+    	.contents {
+        	height: 80vh;
+        	margin: 5vw;
+    	}
+    	.tabs {
+        	display: flex;
+        	overflow-x: scroll;
+    	}
+    	.tab_item {
+        	display:none;
+    	}
+    	.tab_content {
+        	width: 100%;
+        	display: block;
+        	position: static;
+        	margin-right: 20px;
+    	}
+    	.kenkyu_img {
+        	width: 70vw;
+    	}
 }
