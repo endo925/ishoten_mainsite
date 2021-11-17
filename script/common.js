@@ -221,7 +221,7 @@ window.addEventListener('scroll', ()=>{
 	let td = con(t);
 	z_index0.style.filter = "none";
 	
-	if(scrollTopB>=0&&scrollTopB<5000){
+	if(scrollTopB>=0&&scrollTopB<8200){
 		z_index0.style.display = '';//表示
 		if(scrollTopB<250){
 			z_index0.style.opacity =scrollTopB/350;
