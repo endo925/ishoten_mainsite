@@ -256,7 +256,7 @@ body {
 	top: 100%;
 }
 /*ヘッダー*/
-#header {background: linear-gradient(180deg, rgba(0, 0, 0, 0.0), rgba(1.0, 0, 0, 0) );}
+#header {background: linear-gradient(180deg, rgba(0, 0, 0, 1)0%,rgba(0, 0, 0, 0.8)30%, rgba(0, 0, 0, 0)100% );}
 #header img {
 	height: 3vh;
 }
