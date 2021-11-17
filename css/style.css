@@ -273,7 +273,7 @@ img [class^="vis_sp_"]{display:block;}
  .tab_content {
  	display: none;
  }
- #seihin:checked ~ #seihimn_content,
+ #seihin:checked ~ #seihin_content,
  #sisupura:checked ~ #sisupura_content,
  #maneji:checked ~ #maneji_content,
  #zairyou:checked ~ #zairyou_content,
