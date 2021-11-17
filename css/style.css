@@ -265,12 +265,15 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 	font-size: 3em;
 }
 /*研究室紹介*/
+.tabs {
+	position: relative;
+}
  #kenkyu input[name="tab_item"] {
  	display: none;
  }
  .tab_content {
  	display: none;
-	position: relative;
+	position: absolute;
 	top: 0%;
  }
  #seihin:checked ~ #seihin_content,
@@ -296,7 +299,7 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 	width: 100%;
 }
 #kenkyu label {
-	position: relative;
+	position: absolute;
 	left: 60%;
 	display: block;
 }
