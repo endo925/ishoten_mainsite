@@ -51,8 +51,8 @@ const z5_style = z5.style;
 z5_style.transform = "scale( "+0.5+" , "+0.5+" )";	//意匠展縮小
 
 const Last_back = document.getElementsByClassName('last_back')[0];
-const ImgPa = document.getElementById('imgPa');
-const Img = document.getElementById('img');
+//const ImgPa = document.getElementById('imgPa');
+//const Img = document.getElementById('img');
 const IshoutenSc = document.getElementsByClassName('ishouten')[0];
 const InfoSc = document.getElementsByClassName('info')[0];
 const sinkSc = document.getElementsByClassName('sink')[0];
@@ -256,16 +256,16 @@ window.addEventListener('scroll', ()=>{
 
 	if(scrollTop>3200){
 		Last_back.classList.remove('last_backSc');
-		ImgPa.classList.remove('imgSc');			//css:line:38
-		Img.classList.remove('imgSc');				//css:line:37
+		//ImgPa.classList.remove('imgSc');			//css:line:38
+		//Img.classList.remove('imgSc');				//css:line:37
 		IshoutenSc.classList.remove('ishoutenSc');	//css:line:60
 		//InfoSc.classList.remove('infoSc');			//css:line:75
 		sinkSc.classList.remove('sinkSc');			//css:line:90
 	}
 	else{
 		Last_back.classList.add('last_backSc');
-		ImgPa.classList.add('imgSc');
-		Img.classList.add('imgSc');
+		//ImgPa.classList.add('imgSc');
+		//Img.classList.add('imgSc');
 		IshoutenSc.classList.add('ishoutenSc');
 		//InfoSc.classList.add('infoSc');
 		sinkSc.classList.add('sinkSc');
