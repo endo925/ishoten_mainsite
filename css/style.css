@@ -269,7 +269,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width:  95vw;
+    width:  93vw;
     margin: 0 7rem;
     height: 7rem;
   }
@@ -284,11 +284,11 @@ body {
 .pc-nav-list li {
   font-family: "ヒラギノ角ゴ Pro","遊ゴシック",sans-serif;
   margin: 0 5rem 0 0;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   list-style: none;
 }
 .pc-nav-list li a{text-decoration: none;}
-.icon img{height: 2rem;}
+.icon img{margin: 0.5rem -2rem 0 0;height: 2.3rem;}
 /*文章*/
 .contents {
 	margin: 23vw;
