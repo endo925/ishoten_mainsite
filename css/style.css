@@ -293,7 +293,7 @@ body {
 .contents {
 	margin: 23vw;
 	position: relative;
-	height: 70vh;
+	height: 60vh;
 }
 .menu {
 	width: 100%;
@@ -356,6 +356,7 @@ body {
 	position: relative;
 	left: 70%;
 	display: block;
+	margin-bottom: 1rem;
 }
 .tabs input:checked + .tab_item::before {
     position: absolute;
