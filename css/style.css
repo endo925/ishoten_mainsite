@@ -130,10 +130,6 @@ img [class^="vis_sp_"]{display:block;}
 	z-index: 0;
 	opacity: 0.7;
 }/*vis_pc_4*/
-.last_back{
-	padding-top: 2800px;
-	position: absolute;
-}
 .last_back.last_backSc{	
 	padding-top: 0px;
 	position: fixed;}
@@ -190,6 +186,7 @@ img [class^="vis_sp_"]{display:block;}
 /*depth*/
 #log{z-index: 13;}
 .sink{
+	overflow:hidden;
 	padding-top: 5600px;
 	position: absolute;
 	text-align: center;
@@ -202,6 +199,7 @@ img [class^="vis_sp_"]{display:block;}
 .sink div{transition: ease 2.0s;}
 .log2 div{transform: translate(0.4vw,-18vh)scale(1.6,1.6);} 	/*2021pxまでスクロールで追加*/
 .sink.sinkSc{
+	overflow:visible;
 	padding-top: 0px;
 	position: fixed;}
 
