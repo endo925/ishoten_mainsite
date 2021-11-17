@@ -370,6 +370,10 @@ body {
 }
 
 /*フッター*/
+#footer {
+	display: inline;
+	width: 100%;
+}
 #footer img {
 	height: 3vh;
 }
