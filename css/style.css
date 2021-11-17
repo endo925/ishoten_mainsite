@@ -299,6 +299,12 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 	top: 0%;
 	width: 50%;
  }
+.tab_content h4 {
+    font-size: 2em;
+}
+.tab_content h5 {
+    font-size: 1em;
+}
  #seihin:checked ~ #seihin_content,
  #sisupura:checked ~ #sisupura_content,
  #maneji:checked ~ #maneji_content,
