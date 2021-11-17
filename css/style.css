@@ -79,7 +79,7 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 @media (min-width: 769px){
 #imgPa{
 	display:block;
-	padding-top: 3200px;
+	padding-top: 2800px;
 }
 #img{
 	position: absolute;
@@ -97,7 +97,7 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 @media (max-width: 769px){
 #img_spPa{
 	display:block;
-	padding-top: 3200px;
+	padding-top: 2800px;
 }
 #img_sp{
 	position: absolute;
@@ -126,7 +126,7 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 	opacity: 0.7;
 }/*vis_pc_4*/
 .last_back{
-	padding-top: 3200px;
+	padding-top: 2800px;
 	position: absolute;
 }
 .last_back.last_backSc{	
@@ -143,7 +143,7 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 /*意匠展ロゴ*/
 .ishouten img{width: 23vh;}
 .ishouten{
-	padding-top: 3200px;
+	padding-top: 2800px;
 	font-size: 3.0em;
 	text-align: center;
 	top: 35%;
@@ -185,7 +185,7 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 /*depth*/
 #log{z-index: 13;}
 .sink{
-	padding-top: 6400px;
+	padding-top: 5600px;
 	position: absolute;
 	text-align: center;
 	transform: translate(-50%, -50%);
@@ -242,7 +242,7 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 
 /*本文*/
 #honbun {
-	margin-top: 3200px;
+	margin-top: 2800px;
 	width: 100%;
 	position: absolute;
 	top: 100%;
