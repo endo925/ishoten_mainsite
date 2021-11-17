@@ -249,6 +249,9 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 	top: 100%;
 }
 /*ヘッダー*/
+#header img {
+	height: 3vh;
+}
 .header_inner {
   display: flex;
   align-items: center;
@@ -269,13 +272,7 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
   font-size: 2rem;
 }
 
-#header img {
-	height: 3vh;
-}
-#header a {
-	font-size: 1em;
-	text-decoration: none;
-}
+
 /*文章*/
 .contents {
 	margin: 10vw;
