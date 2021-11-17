@@ -289,8 +289,6 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 }
 .kenkyu_img img {
 	width: 100%;
-	height: auto;
-        object-fit: contain;
 }
 #kenkyu label {
 	position: relative;
