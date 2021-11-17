@@ -82,7 +82,7 @@ img [class^="vis_pc_"]{display:block;}
 
 #imgPa{
 	display:block;
-	padding-top: 2800px;
+	padding-top: 2600px;
 }
 #img{
 	position: absolute;
@@ -102,7 +102,7 @@ img [class^="vis_sp_"]{display:block;}
 	
 #img_spPa{
 	display:block;
-	padding-top: 2800px;
+	padding-top: 2600px;
 }
 #img_sp{
 	position: absolute;
@@ -146,7 +146,7 @@ img [class^="vis_sp_"]{display:block;}
 /*意匠展ロゴ*/
 .ishouten img{width: 23vh;}
 .ishouten{
-	padding-top: 2800px;
+	padding-top: 2600px;
 	font-size: 3.0em;
 	text-align: center;
 	top: 35%;
@@ -189,7 +189,7 @@ img [class^="vis_sp_"]{display:block;}
 #log{z-index: 13;}
 .sink{
 	overflow:hidden;
-	padding-top: 5600px;
+	padding-top: 5200px;
 	position: absolute;
 	text-align: center;
 	transform: translate(-50%, -50%);
@@ -247,7 +247,7 @@ img [class^="vis_sp_"]{display:block;}
 
 /*本文*/
 #honbun {
-	margin-top: 2800px;
+	margin-top: 2600px;
 	width: 100%;
 	position: absolute;
 	top: 100%;
