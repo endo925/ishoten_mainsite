@@ -256,7 +256,12 @@ body {
 	top: 100%;
 }
 /*ヘッダー*/
-#header {background: linear-gradient(180deg, rgba(0, 0, 0, 1)0%,rgba(0, 0, 0, 0.8)30%, rgba(0, 0, 0, 0)100% );}
+#header {
+	background: linear-gradient(180deg, rgba(0, 0, 0, 1)0%,rgba(0, 0, 0, 0.8)30%, rgba(0, 0, 0, 0)100% );
+	position: fixed;
+	top: 0%;
+	z-index: 100;
+}
 .header_img {
 	height: 2.5vh;
 }
