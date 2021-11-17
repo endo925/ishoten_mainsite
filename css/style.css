@@ -185,7 +185,7 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 /*depth*/
 #log{z-index: 13;}
 .sink{
-	padding-top: 3200px;
+	padding-top: 6400px;
 	position: absolute;
 	text-align: center;
 	transform: translate(-50%, -50%);
