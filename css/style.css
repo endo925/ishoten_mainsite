@@ -113,7 +113,10 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 #imgPa_sp.imgSc_sp{padding-top: 0px;}
 }
 
-.visual{}
+.visual{
+	width: 100%;
+	background-position: center;
+}
 
 
 /*重ね順*/
