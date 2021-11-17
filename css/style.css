@@ -291,7 +291,7 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
  	display: none;
 	position: absolute;
 	top: 0%;
-	z-index: -1;
+	z-index: -10;
  }
  #seihin:checked ~ #seihin_content,
  #sisupura:checked ~ #sisupura_content,
