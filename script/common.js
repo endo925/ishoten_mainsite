@@ -50,14 +50,14 @@ const z5 = document.getElementById("z-index5");
 const z5_style = z5.style;
 z5_style.transform = "scale( "+0.5+" , "+0.5+" )";	//意匠展縮小
 
-const Last_back = document.getElementsByClassName('last_back')[0];
+//const Last_back = document.getElementsByClassName('last_back')[0];
 //const ImgPa = document.getElementById('imgPa');
 //const Img = document.getElementById('img');
 const IshoutenSc = document.getElementsByClassName('ishouten')[0];
 const InfoSc = document.getElementsByClassName('info')[0];
 const sinkSc = document.getElementsByClassName('sink')[0];
 
-Last_back.classList.add('last_backSc');
+//Last_back.classList.add('last_backSc');
 sinkSc.classList.add('sinkSc');
 IshoutenSc.classList.add('ishoutenSc');
 
