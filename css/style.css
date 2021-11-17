@@ -383,12 +383,15 @@ body {
 }
 #kaisaigaiyo_text{
 	display: inline-flex;
+    font-size: 1.5rem;
 }
 #kaisaigaiyo_text_title {
     text-align: right;
+    margin-right: 1rem
 }
 #kaisaigaiyo_text_honbun {
     text-align: left;
+    margin-left: 1rem;
 }
 
 /*協賛企業*/
