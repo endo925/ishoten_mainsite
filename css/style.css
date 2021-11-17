@@ -302,6 +302,17 @@ body {
 	position: absolute;
 	top: -20%;
 }
+.menu::after {
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%); 
+}
 /*研究室紹介*/
  #kenkyu input[name="tab_item"] {
  	display: none;
