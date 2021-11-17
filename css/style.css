@@ -293,7 +293,7 @@ body {
 .contents {
 	margin: 23vw;
 	position: relative;
-	height: 60vh;
+	height: 75vh;
 }
 .menu {
 	width: 100%;
@@ -306,7 +306,7 @@ body {
 .menu::after {
     content: '';
     display: inline-block;
-    width: 50px;
+    width: 65px;
     height: 1px;
     background-color: #fff;
     position: absolute;
@@ -364,7 +364,7 @@ body {
 	position: relative;
 	left: 70%;
 	display: block;
-	margin-bottom: 2.35vh;
+	margin-bottom: 2.2vh;
 }
 .tabs input:checked + .tab_item::before {
     position: absolute;
