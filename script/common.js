@@ -255,7 +255,7 @@ window.addEventListener('scroll', ()=>{
 	}
 
 	if(scrollTop>2800){
-		Last_back.classList.remove('last_backSc');
+		//Last_back.classList.remove('last_backSc');
 		//ImgPa.classList.remove('imgSc');			//css:line:38
 		//Img.classList.remove('imgSc');				//css:line:37
 		IshoutenSc.classList.remove('ishoutenSc');	//css:line:60
@@ -263,7 +263,7 @@ window.addEventListener('scroll', ()=>{
 		sinkSc.classList.remove('sinkSc');			//css:line:90
 	}
 	else{
-		Last_back.classList.add('last_backSc');
+		//Last_back.classList.add('last_backSc');
 		//ImgPa.classList.add('imgSc');
 		//Img.classList.add('imgSc');
 		IshoutenSc.classList.add('ishoutenSc');
