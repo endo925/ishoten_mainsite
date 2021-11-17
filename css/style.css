@@ -120,7 +120,7 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 }/*vis_pc_4*/
 .last_back{
 	transform: translateY(-50%);
-	padding-top: 3200px;
+	padding-top: 0px;
 	position: absolute;
 }
 .last_back.last_backSc{	
