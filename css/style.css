@@ -243,6 +243,8 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 /*本文*/
 #honbun {
 	margin-top: 3200px;
+	position: absolute;
+	top: 100%;
 }
 
 /*画像pc用*/
