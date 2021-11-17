@@ -247,10 +247,10 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 	position: absolute;
 	top: 100%;
 }
-#honbun img {
+/*ヘッダー*/
+#header img {
 	height: 3vh;
 }
-/*ヘッダー*/
 #header a {
 	font-size: 1em;
 	text-decoration: none;
@@ -296,6 +296,10 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 	position: relative;
 	left: 60%;
 	display: block;
+}
+/*フッター*/
+#footer img {
+	height: 3vh;
 }
 
 /*画像pc用*/
