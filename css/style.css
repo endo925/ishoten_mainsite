@@ -293,14 +293,14 @@ body {
 .contents {
 	margin: 23vw;
 	position: relative;
-	height: 110vh;
+	height: 60vh;
 }
 .menu {
 	width: 100%;
 	text-align: center;
 	font-size: 3em;
 	position: absolute;
-	top: -20%;
+	top: -30%;
 	padding-bottom: 30px;
 }
 .menu::after {
@@ -310,7 +310,7 @@ body {
     height: 1px;
     background-color: #fff;
     position: absolute;
-    top: 120%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%); 
 }
