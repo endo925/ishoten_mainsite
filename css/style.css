@@ -74,12 +74,9 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 }
 
 /*背景*/
-img [class^="vis_"]{display:none;}
 #imgPa{display:none;}
 #img_spPa{display:none;}
 @media (min-width: 769px){
-img [class^="vis_pc_"]{display:block;}
-
 #imgPa{
 	display:block;
 	padding-top: 2600px;
@@ -98,8 +95,6 @@ img [class^="vis_pc_"]{display:block;}
 #imgPa.imgSc{padding-top: 0px;}
 }
 @media (max-width: 769px){
-img [class^="vis_sp_"]{display:block;}
-	
 #img_spPa{
 	display:block;
 	padding-top: 2600px;
