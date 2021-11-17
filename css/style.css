@@ -363,10 +363,15 @@ body {
     left: -2em;
     content: '＜';
 }
-/*map*/
+/*開催概要*/
 #kaisai{
     text-align:center;
 }
+#kaisaigaiyo_text{
+	display:flex;
+	flex-direction:row;
+}
+
 /*協賛企業*/
 #kyousan h4 {
 	text-align: center;
