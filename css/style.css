@@ -234,14 +234,14 @@ img [class^="vis_sp_"]{display:block;}
 	width: 48rem;
 	position: absolute;
 	top: 50%;
-	left: 3%;
+	left: 2%;
 	transform: translate(0%,-50%);
 }
 #what{
 	width: 28rem;
 	position: absolute;
 	top: 50%;
-	right: 8%;
+	right: 5%;
 	transform: translate(0%,-50%);
 }
 
