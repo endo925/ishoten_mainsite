@@ -318,6 +318,7 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 }
 #kenkyu label {
 	position: relative;
+	top: 20%;
 	left: 60%;
 	display: block;
 }
