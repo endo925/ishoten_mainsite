@@ -252,6 +252,13 @@ img [class^="vis_sp_"]{display:block;}
 	position: absolute;
 	top: 100%;
 }
+#honbun img {
+	height: 3vh;
+}
+#header a {
+	font-size: 1em;
+	text-decoration: none;
+}
 
 /*画像pc用*/
 .img_pc {
