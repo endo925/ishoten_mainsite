@@ -248,6 +248,26 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 	top: 100%;
 }
 /*ヘッダー*/
+.header_inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 5rem;
+}
+.pc-nav-list {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.pc-nav-list li {
+  margin: 0 0 0 5rem;
+  font-size: 2rem;
+}
+
 #header img {
 	height: 3vh;
 }
