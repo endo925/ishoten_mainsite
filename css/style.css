@@ -363,6 +363,12 @@ body {
     left: -2em;
     content: '＜';
 }
+/*協賛企業*/
+#kyosan h4 {
+	text-align: center;
+	width: 100%;
+}
+
 /*フッター*/
 #footer img {
 	height: 3vh;
