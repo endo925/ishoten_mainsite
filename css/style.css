@@ -92,7 +92,7 @@ img [class^="vis_pc_"]{display:block;}
 	background-repeat: no-repeat;
 	background-position: center;
 	width: 100vw;
-	height:100vh
+	height:100vh;
 }
 #img.imgSc{position: fixed;}
 #imgPa.imgSc{padding-top: 0px;}
@@ -119,9 +119,9 @@ img [class^="vis_sp_"]{display:block;}
 }
 
 .visual{
-	width: 100vw;
-	height: 100vh;
-	background-position: center;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 
@@ -265,29 +265,6 @@ img [class^="vis_sp_"]{display:block;}
 	width: 100%;
 	text-align: center;
 	font-size: 3em;
-}
-/*研究室紹介*/
-#kenkyu input[name="tab_item"] {
-	display: none;
-}
-.tab_content {
-	display: none;
-}
-#seihin:checked ~ #seihimn_contnet,
-#sisupura:checked ~ #sisupura_contnet,
-#maneji:checked ~ #maneji_contnet,
-#zairyou:checked ~ #zairyou_contnet,
-#ishou:checked ~ #ishou_contnet,
-#komyu:checked ~ #komyu_contnet,
-#ninjou:checked ~ #ninjou_contnet,
-#shinri:checked ~ #shinri_contnet,
-#koma:checked ~ #koma_contnet,
-#kankyou:checked ~ #kankyou_contnet,
-#ninkou:checked ~ #ninkou_contnet,
-#bunka:checked ~ #bunka_contnet,
-#konteku:checked ~ #konteku_contnet,
-#sasute:checked ~ #sasute_contnet {
-	display: block;
 }
 
 /*画像pc用*/
