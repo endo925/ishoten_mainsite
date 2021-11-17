@@ -278,7 +278,7 @@ body {
   margin: 0;
 }
 .pc-nav-list li {
-  font-family{"ヒラギノ角ゴ Pro","遊ゴシック",sans-serif}
+  font-family{"ヒラギノ角ゴ Pro","遊ゴシック",sans-serif};
   margin: 0 5rem 0 0;
   font-size: 1.5rem;
 }
