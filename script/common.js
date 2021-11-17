@@ -154,14 +154,15 @@ window.addEventListener('scroll', ()=>{
 			z_index2.style.filter = "blur("+xd+"px)";
 		}//150pxは動かない
 		else if(scrollTopW>=150,scrollTopW<250){z_index11.style.transform = "scale( "+x+" , "+x+" )";z_index11.style.filter = "blur("+xd+"px)";
-							z_index2.style.transform = "scale( "+1+" , "+1+" )";z_index2.style.filter = "blur("+xd+"px)";}
-		else if(scrollTopW>=250,scrollTopW<650){z_index11.style.transform = "scale( "+1+" , "+1+" )";}
+							z_index2.style.transform = "scale( "+x+" , "+x+" )";z_index2.style.filter = "blur("+xd+"px)";}
+		else if(scrollTopW>=250,scrollTopW<650){z_index11.style.transform = "scale( "+1+" , "+1+" )";z_index2.style.transform = "scale( "+x+" , "+x+" )";}
 		else{
+			z_index2.style.transform = "scale( "+x+" , "+x+" )";
+			
 			x = (scrollTopW-550)*0.01;
 			z_index11.style.transform = "scale( "+x+" , "+x+" )";
 			z_index11.style.filter = "blur("+2*x+"px)";
 			
-			z_index2.style.transform = "scale( "+x+" , "+x+" )";
 			z_index2.style.filter = "blur("+2*x+"px)";
 		}
 	}
@@ -196,14 +197,15 @@ window.addEventListener('scroll', ()=>{
 			z_index3.style.filter = "blur("+yd+"px)";
 		}//150pxは動かない
 		else if(scrollTopC>=150,scrollTopC<250){z_index6.style.transform = "scale( "+y+" , "+y+" )";z_index6.style.filter = "blur("+yd+"px)";
-						        z_index3.style.transform = "scale( "+1+" , "+1+" )";z_index3.style.filter = "blur("+yd+"px)";}
-		else if(scrollTopC>=250,scrollTopC<650){z_index6.style.transform = "scale( "+1+" , "+1+" )";}
+						        z_index3.style.transform = "scale( "+y+" , "+y+" )";z_index3.style.filter = "blur("+yd+"px)";}
+		else if(scrollTopC>=250,scrollTopC<650){z_index6.style.transform = "scale( "+1+" , "+1+" )";z_index3.style.transform = "scale( "+y+" , "+y+" )"}
 		else{
+			z_index3.style.transform = "scale( "+y+" , "+y+" )";
+			
 			y = (scrollTopC-550)*0.01;
 			z_index6.style.transform = "scale( "+y+" , "+y+" )";
 			z_index6.style.filter = "blur("+2*y+"px)";
 			
-			z_index3.style.transform = "scale( "+y+" , "+y+" )";
 			z_index3.style.filter = "blur("+2*y+"px)";
 		}
 	}
