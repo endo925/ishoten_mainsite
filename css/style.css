@@ -291,9 +291,9 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
     		left: 50%;
 		transform: translate(-50%,-50%);
 	}
-	/*開催概要*/
+	/*開催概要
 	.info{
 		width: 60%;
 	}
-	.infoS {transform: translate(-50%,-141%); opacity:1;filter: blur(0px);}
+	.infoS {transform: translate(-50%,-141%); opacity:1;filter: blur(0px);}*/
 }
