@@ -299,7 +299,7 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 	width: 100%;
 }
 #kenkyu label {
-	position: absolute;
+	position: relative;
 	left: 60%;
 	display: block;
 }
