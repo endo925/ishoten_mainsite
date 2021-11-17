@@ -393,11 +393,11 @@ body {
     text-align: left;
     margin-left: 1rem;
 }
-
 /*協賛企業*/
 #kyousan h4 {
 	text-align: center;
 	width: 100%;
+    font-size: 1.5rem;
 }
 
 /*フッター*/
