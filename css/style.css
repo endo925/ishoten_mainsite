@@ -119,6 +119,7 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
 	opacity: 0.7;
 }/*vis_pc_4*/
 .last_back{
+	transform: translateY(-50%);
 	padding-top: 3200px;
 	position: absolute;
 }
