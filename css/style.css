@@ -290,7 +290,7 @@ body{height: 8200px; background-color: #000000;font-family:Times;}
  .tab_content {
  	display: none;
 	position: absolute;
-	top: 10%;
+	top: 20%;
 	width: 50%;
  }
  #seihin:checked ~ #seihin_content,
