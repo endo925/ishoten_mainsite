@@ -273,7 +273,14 @@ window.addEventListener('scroll', ()=>{
 },false);
 var ham = document.getElementsByClassName('ham')[0];
 var menu = document.getElementsByClassName('pc-nav')[0];
+var jump = document.getElementsByClassName('jump');
 ham.addEventListener('click', () => {
      	ham.classList.toggle('toggle');
 	menu.classList.toggle('sp-nav');
 },false);
+for (let i = 0; i < 6; i++) {
+	jump[i].addEventListener('click', () => {
+     		ham.classList.toggle('toggle');
+		menu.classList.toggle('sp-nav');
+	},false);
+}
