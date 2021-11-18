@@ -376,34 +376,14 @@ body {
 #kaisaigaiyo_text_sp {
 	display: none;
 }
-/*協賛企業
-#kyousan h4 {
-	text-align: center;
-	width: 100%;
-        font-size: 16px;
-	font-family: "ヒラギノ角ゴ Pro","遊ゴシック",sans-serif;
-	font-weight:lighter;
+/*協賛企業*/
+#kyosan_text_pc{
+	display: block;
+	width:100%;
 }
-.kigyo {
-    margin: 16px;
-    line-height: 36px;
-	display:inline;
-}
-#kigyos {
-    text-align: center;
-}
-*/
 #kyosan_text_sp{
 	display:none;
 }
-
-#kyosan_text_pc{
-	width:80%;
-	
-}
-
-
-
 
 /*フッター*/
 #footer{
@@ -563,10 +543,6 @@ h5 {
     	.tab_content:last-of-type{
     		padding: 0;
     	}
-	.kenkyu_logo{
-    		width:30px;
-    		padding-top: 6.2vh;
-	}
 	#map iframe{
     		height:25vh;
             	width:100%;
@@ -582,10 +558,12 @@ h5 {
 		width: 100%;
 		height: 40vh;
 	}
-    	#kyousan h4 {font-size: 16px;}
 	#kyosan_text_pc{
-	display:none;
-	
-}
+		display: none;
+	}
+	#kyosan_text_sp{
+		display: block;
+		margin: 0 10vw;
+	}
 }
 
