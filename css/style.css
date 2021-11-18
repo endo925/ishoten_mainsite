@@ -289,6 +289,9 @@ body {
 .pc-nav-list li:hover{opacity:0.6;}
 .pc-nav-list li a{text-decoration: none;}
 .icon img{height: 2.3rem;}
+.ham {
+	display: none;
+}
 /*文章*/
 .contents {
 	padding: 20vh 20vw 0 20vw;
@@ -500,6 +503,24 @@ h5 {
 	}
 	.infoS {transform: translate(-50%,-141%); opacity:1;filter: blur(0px);}*/
 	/*本文*/
+	.ham {
+		height: 2.5vh
+     		cursor: pointer;
+	}
+	#bar1, #bar2, #bar3 {
+     		transition: all 0.3s ease;
+	}
+	.toggle #bar1 {
+     		transform-origin: left top;
+     		transform: translate(5px, 5px) rotate(45deg);
+	}
+	.toggle #bar2 {
+     		opacity: 0;
+	}
+	.toggle #bar3 {
+     		transform-origin: left bottom;
+     		transform: translate(5px, -5px) rotate(-45deg);
+	}
 	.pc-nav {
             display: none;
             position: fixed;
