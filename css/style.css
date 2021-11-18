@@ -421,9 +421,23 @@ body {
 }
 /*協賛企業*/
 #kyousan h4 {
-	text-align: center;
+	text-align: left;
 	width: 100%;
     font-size: 1.6rem;
+}
+#kigyo {
+	display:flex;
+	flex-direction:column;
+}
+#kigyo_jyodan{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+}
+#kigyo_gedan{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
 }
 
 /*フッター*/
@@ -449,7 +463,9 @@ body {
 .img_sp {
 	display: none;
 }
-
+h4 {
+	font-family: "ヒラギノ角ゴ Pro","遊ゴシック",sans-serif;
+}
 h5 {
 	font-family: "ヒラギノ角ゴ Pro","遊ゴシック",sans-serif;
 }
