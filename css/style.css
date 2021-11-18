@@ -384,7 +384,8 @@ body {
 }
 #kaisaigaiyo_text_pc {
 	display: block;
-	width: 100%;
+	width: 60%;
+	margin:5rem auto;
 }
 #kaisaigaiyo_text_sp {
 	display: none;
