@@ -278,3 +278,6 @@ ham.onclick = function () {
 	menu.style.display = 'block';
 	console.log('clicked');
 }
+menu.onclick = function () {
+	console.log('clicked');
+}
