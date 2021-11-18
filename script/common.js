@@ -284,20 +284,3 @@ for (let i = 0; i < 6; i++) {
 		menu.classList.toggle('sp-nav');
 	},false);
 }
-document.addEventListener('click', (e) => {
-	if (ham.classList.contains('toggle') && !e.target.closest('.sp-nav')) {
-     		ham.classList.toggle('toggle');
-		menu.classList.toggle('sp-nav');
-	} else {
-		ham.addEventListener('click', () => {
-     			ham.classList.toggle('toggle');
-			menu.classList.toggle('sp-nav');
-		},false);
-		for (let i = 0; i < 6; i++) {
-			jump[i].addEventListener('click', () => {
-     				ham.classList.toggle('toggle');
-				menu.classList.toggle('sp-nav');
-			},false);
-		}
-	}
-}, false);
