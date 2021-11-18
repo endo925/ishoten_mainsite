@@ -568,7 +568,7 @@ h5 {
         }
     	.contents {
 		margin-top: -10vh;
-		padding: 10vh 5vw 0 5vw;
+		padding: 10vh 5px 0 5px;
 		height: 90vh;
 	}
 	.menu{
