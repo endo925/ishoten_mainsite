@@ -271,3 +271,9 @@ window.addEventListener('scroll', ()=>{
 		sinkSc.classList.add('sinkSc');
 	}
 },false);
+var ham = document.getElementsByClassName('ham');
+var menu = document.getElementsByClassName('pc-nav');
+ham.onclick = function () {
+     	ham.classList.toggle('toggle');
+	menu.style.display = 'block';
+}
