@@ -385,7 +385,9 @@ body {
 #kigyos {
     text-align: center;
 }
-
+#kyosan_text_sp{
+	display:none;
+}
 /*フッター*/
 #footer{
     text-align:center;
