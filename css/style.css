@@ -412,8 +412,9 @@ body {
     margin-right: 1rem;
 }
 .kaiki::after {
-    content: "\A　";
-    white-space: pre;
+	line-height:0rem;
+	content: "\A　";
+	white-space: pre;
 }
 .kaijyo::after {
     content: "\A　";
