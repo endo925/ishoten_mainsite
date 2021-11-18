@@ -596,6 +596,11 @@ body {
 		display:block;
         	width: 70vw;
     	}
+	.kenkyu_sp_h5{
+		margin-top: 65px;
+		margin-left:5%;
+		width:90%;
+    	}
 	#kaisaigaiyo_text_pc {
 		display: none;
 	}
