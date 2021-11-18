@@ -313,7 +313,7 @@ body {
     height: 1px;
     background-color: #fff;
     position: absolute;
-    top: 210%;
+    top: 220%;
     left: 50%;
     transform: translate(-50%); 
 }
