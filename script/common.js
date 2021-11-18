@@ -271,27 +271,22 @@ window.addEventListener('scroll', ()=>{
 		sinkSc.classList.add('sinkSc');
 	}
 },false);
-var body = document.querySelector('body');
+
 var ham = document.getElementsByClassName('ham')[0];
 var menu = document.getElementsByClassName('pc-nav')[0];
 var jump = document.getElementsByClassName('jump');
 ham.addEventListener('click', () => {
      	ham.classList.toggle('toggle');
 	menu.classList.toggle('sp-nav');
-	body.classList.toggle('open');
 },false);
 for (let i = 0; i < 6; i++) {
 	jump[i].addEventListener('click', () => {
      		ham.classList.toggle('toggle');
 		menu.classList.toggle('sp-nav');
-		body.classList.toggle('open');
 	},false);
 }
 document.addEventListener('click', (e) => {
 	if (body.classList.contains('open') && !e.target.closest('.sp-nav')) {
-     		ham.classList.toggle('toggle');
-		menu.classList.toggle('sp-nav');
-		body.classList.toggle('open');
 		console.log('toggle');
 	}
 },false);
