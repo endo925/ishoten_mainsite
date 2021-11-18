@@ -555,6 +555,7 @@ h5 {
             margin-bottom: 2vh;
         }
     	.contents {
+		margin-top: -20vh;
 		padding: 10vh 0vw 0 0vw;
 		height: 90vh;
 	}
