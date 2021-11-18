@@ -590,7 +590,7 @@ h5 {
         	width: 100%;
         	display: block;
         	position: static;
-        	padding: 0 0 0 5px;
+        	padding: 0 5px 0 0;
     	}
 	.tab_content#seihin_content{
     		padding: 0 5vw 0 15vw;
