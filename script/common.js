@@ -274,12 +274,6 @@ window.addEventListener('scroll', ()=>{
 var ham = document.getElementsByClassName('ham')[0];
 var menu = document.getElementsByClassName('pc-nav')[0];
 var jump = document.getElementsByClassName('jump');
-document.addEventListener('click', (e) => {
-	if (document.getElementsByClassName('toggle')[0] != null && !e.target.closest('.sp-nav')) {
-     		ham.classList.toggle('toggle');
-		menu.classList.toggle('sp-nav');
-	}
-},false);
 ham.addEventListener('click', () => {
      	ham.classList.toggle('toggle');
 	menu.classList.toggle('sp-nav');
