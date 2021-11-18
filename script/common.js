@@ -286,10 +286,10 @@ for (let i = 0; i < 6; i++) {
 	},false);
 }
 document.addEventListener('click', (e) => {
-	if (!ham.classList.contains('toggle')) {
+	if (e.target.closest('.sp-nav')) {
 		return;
 	}
-	if (!e.target.closest('.sp-nav')) {
+	if (ham.classList.contains('toggle')) {
      		ham.classList.toggle('toggle');
 		menu.classList.toggle('sp-nav');
 		console.log('toggle');
