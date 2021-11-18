@@ -271,9 +271,11 @@ window.addEventListener('scroll', ()=>{
 		sinkSc.classList.add('sinkSc');
 	}
 },false);
+var body = document.querySelector('body');
 var ham = document.getElementsByClassName('ham')[0];
 var menu = document.getElementsByClassName('pc-nav')[0];
 var jump = document.getElementsByClassName('jump');
+var open = document.querySelector('.toggle');
 ham.addEventListener('click', () => {
      	ham.classList.toggle('toggle');
 	menu.classList.toggle('sp-nav');
@@ -284,3 +286,9 @@ for (let i = 0; i < 6; i++) {
 		menu.classList.toggle('sp-nav');
 	},false);
 }
+body.addEventListener('click', (e) => {
+	if (e.target !== open) {
+     		ham.classList.toggle('toggle');
+		menu.classList.toggle('sp-nav');
+	}
+},false);
