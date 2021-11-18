@@ -544,6 +544,12 @@ h5 {
     	.tab_content:last-of-type{
     		padding: 0;
     	}
+	.tab_content#seihin_content{
+		padding: 0 20px 0 10vw;
+    	}
+    	.tab_content#sasute_content{
+		padding: 0 10vw 0 20px;
+    	}
 	#map iframe{
     		height:28vh;
             	width:81%;
