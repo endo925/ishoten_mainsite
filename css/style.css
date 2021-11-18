@@ -369,7 +369,7 @@ body {
 #kaisaigaiyo_text_sp {
 	display: none;
 }
-/*協賛企業*/
+/*協賛企業
 #kyousan h4 {
 	text-align: center;
 	width: 100%;
@@ -385,9 +385,19 @@ body {
 #kigyos {
     text-align: center;
 }
+*/
 #kyosan_text_sp{
 	display:none;
 }
+
+#kyosan_text_pc{
+	width:80%;
+	
+}
+
+
+
+
 /*フッター*/
 #footer{
     text-align:center;
@@ -566,5 +576,9 @@ h5 {
 		height: 40vh;
 	}
     	#kyousan h4 {font-size: 16px;}
+	#kyosan_text_pc{
+	display:none;
+	
+}
 }
 
