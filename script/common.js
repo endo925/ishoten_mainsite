@@ -275,7 +275,7 @@ var ham = document.getElementsByClassName('ham');
 var menu = document.getElementsByClassName('pc-nav');
 ham.addEventListener('click', () => {
 	console.log('clicked');
-});
+},false);
 /*ham.onclick = function () {
      	ham.classList.toggle('toggle');
 	menu.style.display = 'block';
