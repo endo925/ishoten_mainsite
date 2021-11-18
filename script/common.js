@@ -286,9 +286,3 @@ for (let i = 0; i < 6; i++) {
 		menu.classList.toggle('sp-nav');
 	},false);
 }
-body.addEventListener('click', (e) => {
-	if (e.target !== open && open != null) {
-     		ham.classList.toggle('toggle');
-		menu.classList.toggle('sp-nav');
-	}
-},false);
