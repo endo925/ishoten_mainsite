@@ -284,3 +284,8 @@ for (let i = 0; i < 6; i++) {
 		menu.classList.toggle('sp-nav');
 	},false);
 }
+document.addEventListener('click', (e) => {
+	if (ham.classList.contains('toggle')) {
+		console.log('toggle');
+	}
+},false);
