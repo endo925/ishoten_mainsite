@@ -539,7 +539,7 @@ h5 {
             margin-bottom: 2vh;
         }
     	.contents {
-		padding: 10vh 5vw 0 5vw;
+		padding: 10vh 0vw 0 0vw;
 		height: 90vh;
 	}
     	.tabs {
@@ -553,7 +553,13 @@ h5 {
         	width: 100%;
         	display: block;
         	position: static;
-        	margin-right: 20px;
+        	padding: 0 5vw 0 7vw;
+    	}
+	.tab_content#seihin_content{
+    		padding: 0 5vw 0 20vw;
+    	}
+    	.tab_content#sasute_content{
+    		padding: 0 20vw 0 5vw;
     	}
 	#map iframe{
     		height:25vh;
