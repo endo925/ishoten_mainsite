@@ -271,8 +271,8 @@ window.addEventListener('scroll', ()=>{
 		sinkSc.classList.add('sinkSc');
 	}
 },false);
-var ham = document.getElementsByClassName('ham');
-var menu = document.getElementsByClassName('pc-nav');
+var ham = document.getElementsByClassName('ham')[0];
+var menu = document.getElementsByClassName('pc-nav')[0];
 ham.addEventListener('click', () => {
 	console.log('clicked');
 },false);
