@@ -186,7 +186,7 @@ window.addEventListener('scroll', ()=>{
 	z_index3.style.opacity =0.7;
 	z_index3.style.filter = "none";
 	
-	if(scrollTopC>=0&&scrollTopC<900){
+	if(scrollTopC>=0&&scrollTopC<1000){
 		z_index6.style.display = '';
 		z_index3.style.display = '';
 		if(scrollTopC<150){
