@@ -290,8 +290,8 @@ body {
 .icon img{height: 2.3rem;}
 /*文章*/
 .contents {
-	padding: 10vh 20vw 20vh 20vw;
-    	margin-top: -5vh;
+	padding: 20vh 20vw 0 20vw;
+    	margin-top: -10vh;
 	position: relative;
 	height: 130vh;
 }
@@ -377,7 +377,7 @@ body {
 	position: relative;
 	left: 70%;
 	display: block;
-	margin-bottom: 1.7rem;
+	margin-bottom: 1.75rem;
 }
 .tabs input:checked + .tab_item::before {
     position: absolute;
