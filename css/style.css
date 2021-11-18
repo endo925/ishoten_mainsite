@@ -571,8 +571,9 @@ h5 {
 	}
 	#kaisaigaiyo_text_sp {
 		display: block;
-		width: 100%;
-		height: 40vh;
+		margin:0 auto;
+		width: 80%;
+		height: 30vh;
 	}
 	#kyosan_text_pc{
 		display: none;
