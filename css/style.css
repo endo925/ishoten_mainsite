@@ -283,12 +283,12 @@ body {
 .pc-nav-list li {
   font-family: "ヒラギノ角ゴ Pro","遊ゴシック",sans-serif;
   margin: 0 0 0 5rem;
-  font-size: 1.3rem;
+  font-size: 12px;
   list-style: none;
 }
 .pc-nav-list li:hover{opacity:0.6;}
 .pc-nav-list li a{text-decoration: none;}
-.icon img{height: 2.3rem;}
+.icon img{height: 24px;}
 .ham {
 	display: none;
 }
@@ -297,7 +297,7 @@ body {
 	padding: 20vh 20vw 0 20vw;
     	margin-top: -10vh;
 	position: relative;
-	height: 130vh;
+	height: 90vh;
 }
 .contents:nth-child(2) {
     	height: 70vh;
@@ -306,7 +306,7 @@ body {
 .menu {
 	width: 100%;
 	text-align: center;
-	font-size: 2.4em;
+	font-size: 24px;
     	position: relative;
     	margin-bottom: 15vh;
 }
@@ -343,22 +343,22 @@ body {
  }
 .kenkyu_logo{
 	float:left;
-	margin-right:2.5rem;
+	margin-right:26px;
 	width:3rem;
 	padding-top: 7vh;
 }
 .tab_content h4 {
     	letter-spacing:0.2rem;
  	font-weight:600;
-    	font-size: 2.1rem;
+    	font-size: 23px;
 	padding-top: 4vh;
 }
 .tab_content h5 {
  	text-align: justify;
 	text-justify: inter-ideograph;
 	font-weight: 100;
-	font-size: 1.25rem;
-	line-height: 2.5rem;
+	font-size: 16px;
+	line-height: 30px;
 }
  #seihin:checked ~ #seihin_content,
  #sisupura:checked ~ #sisupura_content,
@@ -383,7 +383,7 @@ body {
 	width: 100%;
 }
 .tab_item {
-	font-size: 1.6rem;
+	font-size: 16px;
 	position: relative;
 	left: 70%;
 	display: block;
@@ -404,12 +404,16 @@ body {
 }
 #kaisaigaiyo_text{
 	display: inline-flex;
-    	font-size: 1.6rem;
+    	font-size: 16px;
 	margin-top:4rem;
 }
 #kaisaigaiyo_text_title {
     text-align: right;
-    margin-right: 1rem
+    margin-right: 1rem;
+}
+.kaiki::after {
+    content: "\A　";
+    white-space: pre;
 }
 .kaijyo::after {
     content: "\A　";
@@ -423,7 +427,7 @@ body {
 #kyousan h4 {
 	text-align: center;
 	width: 100%;
-        font-size: 1.6rem;
+        font-size: 16px;
 	font-family: "ヒラギノ角ゴ Pro","遊ゴシック",sans-serif;
 	font-weight:lighter;
 }
@@ -447,7 +451,7 @@ body {
 #footer{text-align:center;}
 #footer h5{
 	display:inline-block;
-	font-size:2rem;
+	font-size:2px;
 	font-weight: 100;
 	letter-spacing:0.2rem;
 	font-family:Times;
@@ -554,6 +558,7 @@ h5 {
             background-color: #000;
             padding: 20vh 0 20vh 0;
             z-index: 90;
+		font-size: 16px;
 	}
         .pc-nav-list {
             display: block;
@@ -567,7 +572,7 @@ h5 {
 		height: 90vh;
 	}
 	.menu{
-	    	font-size:4.5rem;
+	    	font-size:24px;
 	    	margin-bottom: 10vh;
 	}
 	.menu::after {
@@ -594,13 +599,13 @@ h5 {
     		padding: 0 15vw 0 5vw;
     	}
 	.kenkyu_logo{
-    		width:4.5rem;
+    		width:30px;
     		padding-top: 6.2vh;
 	}
-	.tab_content h4{font-size:3.5rem;}
+	.tab_content h4{font-size:24px;}
     	.tab_content h5{
-    		font-size:2.3rem;
-    		line-height: 5.5rem;
+    		font-size:16px;
+    		line-height: 30px;
 	}
 	#map iframe{
     		height:25vh;
@@ -609,6 +614,6 @@ h5 {
     	.kenkyu_img {
         	width: 70vw;
     	}
-	#kaisaigaiyo_text{font-size: 2.5rem;}
-    	#kyousan h4 {font-size: 2.5rem;}
+	#kaisaigaiyo_text{font-size: 16px;}
+    	#kyousan h4 {font-size: 16px;}
 }
