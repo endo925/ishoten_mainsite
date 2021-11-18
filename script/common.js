@@ -275,5 +275,5 @@ var ham = document.getElementsByClassName('ham')[0];
 var menu = document.getElementsByClassName('pc-nav')[0];
 ham.addEventListener('click', () => {
      	ham.classList.toggle('toggle');
-	menu.style.display = 'block';
+	menu.classList.toggle('sp-nav');
 },false);
