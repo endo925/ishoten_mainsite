@@ -302,11 +302,15 @@ body {
     transform: translate(-50%); 
 }
 /*ポスター画像*/
-#poster_text img {
+.poster_text_pc {
+	display: block;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); 
+}
+.poster_text_sp {
+	display: none;
 }
 /*研究室紹介*/
  #kenkyu input[name="tab_item"] {
@@ -545,6 +549,16 @@ h5 {
 	.menu::after {
 	    	width: 10%;
 	    	height:2px;
+	}
+	.poster_text_sp {
+		display: block;
+    		position: absolute;
+    		top: 50%;
+    		left: 50%;
+    		transform: translate(-50%, -50%); 
+	}
+	.poster_text_pc {
+		display: none;
 	}
     	.tabs {
         	display: flex;
