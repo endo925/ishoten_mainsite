@@ -315,25 +315,6 @@ body {
 	top: 0%;
 	width: 57%;
  }
-.kenkyu_logo{
-	float:left;
-	margin-right:26px;
-	width:3rem;
-	padding-top: 7vh;
-}
-.tab_content h4 {
-    	letter-spacing:0.2rem;
- 	font-weight:600;
-    	font-size: 23px;
-	padding-top: 4vh;
-}
-.tab_content h5 {
- 	text-align: justify;
-	text-justify: inter-ideograph;
-	font-weight: 100;
-	font-size: 16px;
-	line-height: 30px;
-}
  #seihin:checked ~ #seihin_content,
  #sisupura:checked ~ #sisupura_content,
  #maneji:checked ~ #maneji_content,
@@ -566,11 +547,6 @@ h5 {
 	.kenkyu_logo{
     		width:30px;
     		padding-top: 6.2vh;
-	}
-	.tab_content h4{font-size:24px;}
-    	.tab_content h5{
-    		font-size:16px;
-    		line-height: 30px;
 	}
 	#map iframe{
     		height:25vh;
