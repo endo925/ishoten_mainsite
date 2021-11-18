@@ -417,7 +417,7 @@ body {
 	white-space: pre;
 }
 .kaijyo::after {
-	line-height:0rem;
+	line-height:2.4rem;
 	content: "\A　";
 	white-space: pre;
 }
