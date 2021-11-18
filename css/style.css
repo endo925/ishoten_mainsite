@@ -525,6 +525,7 @@ h5 {
 		display: block;
 		height: 2.5vh;
      		cursor: pointer;
+            	z-index: 100;
 	}
 	#bar1, #bar2, #bar3 {
      		transition: all 0.3s ease;
