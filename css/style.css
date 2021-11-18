@@ -423,7 +423,9 @@ body {
 #kyousan h4 {
 	text-align: center;
 	width: 100%;
-    font-size: 1.6rem;
+        font-size: 1.6rem;
+	font-family: "ヒラギノ角ゴ Pro","遊ゴシック",sans-serif;
+	font-weight:lighter;
 }
 #kigyo {
 	text-align:left;
@@ -464,10 +466,7 @@ body {
 .img_sp {
 	display: none;
 }
-h4 {
-	font-family: "ヒラギノ角ゴ Pro","遊ゴシック",sans-serif;
-	font-weight:lighter;
-}
+
 h5 {
 	font-family: "ヒラギノ角ゴ Pro","遊ゴシック",sans-serif;
 }
