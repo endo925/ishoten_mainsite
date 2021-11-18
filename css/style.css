@@ -334,6 +334,9 @@ body {
 .kenkyu_img {
 	width: 100%;
 }
+.kenkyu_img_sp{
+	display: none;
+}
 .kenkyu_img img {
 	width: 100%;
 }
@@ -556,7 +559,11 @@ h5 {
     		height:28vh;
             	width:81%;
         }
-    	.kenkyu_img {
+	.kenkyu_img{
+		display:"none";
+	}
+    	.kenkyu_img_sp{
+		display:"block";
         	width: 70vw;
     	}
 	#kaisaigaiyo_text_pc {
