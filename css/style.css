@@ -323,6 +323,7 @@ body {
  	display: none;
 	position: absolute;
 	top: 0%;
+	left: 3%;
 	width: 55%;
  }
  #seihin:checked ~ #seihin_content,
@@ -354,7 +355,7 @@ body {
 .tab_item {
 	font-size: 16px;
 	position: relative;
-	left: 62.5%;
+	left: 66%;
 	display: block;
 	margin-bottom: 1.78rem;
 }
