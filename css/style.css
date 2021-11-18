@@ -506,7 +506,9 @@ h5 {
 		line-height:100px;
 	}
 	.icon img{
-		height: 50px;
+		height: 40px;
+		padding:50px 50px 0 0; 
+		float:left;
 	}
         .pc-nav-list {
             display: block;
