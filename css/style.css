@@ -388,15 +388,17 @@ body {
     content: '＜';
 }
 /*開催概要*/
-#map{
-	width:70%;
+#map iframe{
+	height:45vh;
+	 width:45vw;
 }
 #kaisai{
     text-align:center;
 }
 #kaisaigaiyo_text{
 	display: inline-flex;
-    font-size: 1.6rem;
+    	font-size: 1.6rem;
+	margin-top:4rem;
 }
 #kaisaigaiyo_text_title {
     text-align: right;
