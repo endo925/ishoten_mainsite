@@ -421,11 +421,12 @@ body {
 }
 /*協賛企業*/
 #kyousan h4 {
-	text-align: left;
+	text-align: center;
 	width: 100%;
     font-size: 1.6rem;
 }
 #kigyo {
+	text-align:left;
 	display:flex;
 	flex-direction:column;
 }
