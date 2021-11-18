@@ -210,14 +210,14 @@ body {
 	width: 48rem;
 	position: absolute;
 	top: 50%;
-	left: 2%;
+	left: 5%;
 	transform: translate(0%,-50%);
 }
 #what{
-	width: 28rem;
+	width: 25rem;
 	position: absolute;
 	top: 50%;
-	right: 5%;
+	right: 8%;
 	transform: translate(0%,-50%);
 }
 
