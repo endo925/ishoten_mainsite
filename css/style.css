@@ -263,11 +263,11 @@ body {
 }
 .pc-nav-list li:hover{opacity:0.6;}
 .pc-nav-list li a{text-decoration: none;}
-.icon.icon_pc{
+.icon .icon_pc{
 	display: block;
 	height: 24px;
 }
-.icon.icon_sp{
+.icon .icon_sp{
 	display: none;
 }
 .ham {
@@ -518,10 +518,10 @@ h5 {
 	.sp-nav li a{
 		color: #000;
 	}
-	.icon.icon_pc{
+	.icon .icon_pc{
 		display: none;
 	}
-	.icon.icon_sp{
+	.icon .icon_sp{
 		display: block;
 		height: 40px;
 		padding:50px 50px 0 0; 
