@@ -371,11 +371,10 @@ body {
 #kaisaigaiyo_text{
 	display: inline-flex;
     	font-size: 16px;
-	margin-top:4rem;
 }
 #kaisaigaiyo_text_pc {
 	display: block;
-	height: 30vh;
+	width: 100%;
 }
 #kaisaigaiyo_text_sp {
 	display: none;
