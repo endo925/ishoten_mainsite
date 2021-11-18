@@ -372,8 +372,8 @@ body {
 }
 /*開催概要*/
 #map iframe{
-	height:45vh;
-	 width:100%;
+	height:38rem;
+	 width:85%;
 }
 #kaisai{
     text-align:center;
