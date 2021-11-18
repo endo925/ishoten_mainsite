@@ -338,13 +338,16 @@ body {
 	width: 57%;
  }
 .kenkyu_logo{
-	width:5rem;
+	float:left;
+	margin-right:2.5rem;
+	width:3rem;
+	padding-top: 7vh;
 }
 .tab_content h4 {
     	letter-spacing:0.2rem;
  	font-weight:600;
     	font-size: 2.1rem;
-	padding-top: 3vh;
+	padding-top: 4vh;
 }
 .tab_content h5 {
  	text-align: justify;
