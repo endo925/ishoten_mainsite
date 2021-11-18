@@ -344,10 +344,17 @@ body {
 	display: block;
 	margin-bottom: 1.78rem;
 }
+.tab_item div {
+	display: inline;
+}
 .tabs input:checked + .tab_item::before {
     position: absolute;
     left: -2em;
     content: '＜';
+}
+.tab_item div:hover {
+    background-color: #777;
+    color: #000;
 }
 /*開催概要*/
 #map iframe{
