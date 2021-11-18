@@ -576,6 +576,7 @@ h5 {
 	}
 	#footer h5 {
 		font-size:2rem;
+	        display:block;
 	}
 }
 
