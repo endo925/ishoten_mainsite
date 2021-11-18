@@ -532,6 +532,10 @@ h5 {
         	position: static;
         	margin-right: 20px;
     	}
+	#map iframe{
+    		height:25vh;
+            width:65vw;
+        }
     	.kenkyu_img {
         	width: 70vw;
     	}
