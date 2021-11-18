@@ -440,7 +440,7 @@ body {
 	.ishouten img{
 		width: 40vw;
 	}
-	.ishoutenS img{transform: translateY(-2vh)scale(1.2,1.2);}
+	.ishoutenS img{transform: translateY(-4vh)scale(1.2,1.2);}
 	/*depth*/
     	.sink{
 		left: 50%;
@@ -453,7 +453,7 @@ body {
 	}
 	.depth_m{margin-left: -3vw;}
 	.log2 div{
-		transform: translate(-3.1vw,-25vh)scale(1.5, 1.5);
+		transform: translate(-2.8vw,-18vh)scale(1.5, 1.5);
 	}
 	/*concept, what*/
     	#concept {
