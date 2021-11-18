@@ -15,7 +15,7 @@ body {
 	width: 100%; 
 	height: 100%;
 	background-color: #000000;
-	font-family:Times,"ヒラギノ明朝ProN","遊明朝",serif;
+	font:16px/1.8, "Times","ヒラギノ明朝ProN","遊明朝",serif;
 }
 
 #input{display: none;}	/*ロード前は消す*/
@@ -297,11 +297,10 @@ body {
 	padding: 20vh 20vw 0 20vw;
     	margin-top: -10vh;
 	position: relative;
-	height: 90vh;
 }
 .contents:nth-child(2) {
-    	height: 70vh;
 	padding-top: 0;
+    height: 40vh;
 }
 .menu {
 	width: 100%;
@@ -317,7 +316,7 @@ body {
     height: 1px;
     background-color: #fff;
     position: absolute;
-    top: 220%;
+    top: 150%;
     left: 50%;
     transform: translate(-50%); 
 }
@@ -417,7 +416,7 @@ body {
 	white-space: pre;
 }
 .kaijyo::after {
-	line-height:2.4rem;
+	line-height:0rem;
 	content: "\A　";
 	white-space: pre;
 }
@@ -434,6 +433,7 @@ body {
 	font-weight:lighter;
 }
 .kigyo {
+    margin: 16px;
 	text-align:left;
 	display:flex;
 	flex-direction:column;
@@ -450,10 +450,13 @@ body {
 }
 
 /*フッター*/
-#footer{text-align:center;}
+#footer{
+    text-align:center;
+    margin-top: 20vh;
+}
 #footer h5{
 	display:inline-block;
-	font-size:2px;
+	font-size:12px;
 	font-weight: 100;
 	letter-spacing:0.2rem;
 	font-family:Times;
@@ -570,8 +573,7 @@ h5 {
         }
     	.contents {
 		margin-top: -10vh;
-		padding: 10vh 5px 0 5px;
-		height: 90vh;
+		padding: 10vh 20px 0 20px;
 	}
 	.menu{
 	    	font-size:24px;
@@ -592,13 +594,10 @@ h5 {
         	width: 100%;
         	display: block;
         	position: static;
-        	padding: 0 5px 0 0;
+        	padding: 0 20px 0 0;
     	}
-	.tab_content#seihin_content{
-    		padding: 0 5vw 0 15vw;
-    	}
-    	.tab_content#sasute_content{
-    		padding: 0 15vw 0 5vw;
+    	.tab_content:last-of-type{
+    		padding: 0;
     	}
 	.kenkyu_logo{
     		width:30px;
@@ -619,3 +618,4 @@ h5 {
 	#kaisaigaiyo_text{font-size: 16px;}
     	#kyousan h4 {font-size: 16px;}
 }
+
