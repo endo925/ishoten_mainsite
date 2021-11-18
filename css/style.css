@@ -469,7 +469,7 @@ h5 {
 	#header{padding-top:1vh;}
 	.ham {
 		display: block;
-		height: 2.5vh;
+		height: 3vh;
      		cursor: pointer;
             	z-index: 100;
 	}
@@ -479,6 +479,7 @@ h5 {
 	.toggle #bar1 {
      		transform-origin: left top;
      		transform: translate(5px, 5px) rotate(45deg);
+		stroke: black;
 	}
 	.toggle #bar2 {
      		opacity: 0;
@@ -486,6 +487,7 @@ h5 {
 	.toggle #bar3 {
      		transform-origin: left bottom;
      		transform: translate(5px, -5px) rotate(-45deg);
+		stroke: black;
 	}
 	.pc-nav {
             display: none;
