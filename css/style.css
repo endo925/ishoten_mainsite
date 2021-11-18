@@ -357,7 +357,7 @@ body {
     content: '＜';
 }
 .tab_item div:hover {
-    background-color: #777;
+    background-color: #f0f3f7;
     color: #000;
 }
 /*開催概要*/
@@ -502,9 +502,10 @@ h5 {
             right: 0%;
             height: 80vh;
             width: 60vw;
-            background-color: #000;
+            background-color: #f0f3f7;
             padding: 20vh 0 20vh 0;
             z-index: 90;
+		color: #000;
 	}
 	.sp-nav li{
 		font-size: 24px;
