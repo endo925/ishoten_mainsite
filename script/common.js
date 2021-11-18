@@ -285,7 +285,7 @@ for (let i = 0; i < 6; i++) {
 	},false);
 }
 document.addEventListener('click', (e) => {
-	if (document.classList.containts('toggle') && !e.target.closest('.sp-nav')) {
+	if (ham.classList.containts('toggle') && !e.target.closest('.sp-nav')) {
      		ham.classList.toggle('toggle');
 		menu.classList.toggle('sp-nav');
 	}
