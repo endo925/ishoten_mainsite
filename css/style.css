@@ -552,6 +552,7 @@ h5 {
 	}
 	.poster_text_sp {
 		display: block;
+		width:70%;
     		position: absolute;
     		top: 50%;
     		left: 50%;
