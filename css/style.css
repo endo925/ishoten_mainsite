@@ -565,6 +565,13 @@ h5 {
             z-index: 90;
 		font-size: 16px;
 	}
+	.sp-nav li{
+		font-size: 30px;
+		line-height:100px;
+	}
+	.icon img{
+		height: 50px;
+	}
         .pc-nav-list {
             display: block;
         }
