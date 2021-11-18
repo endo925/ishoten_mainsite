@@ -161,31 +161,6 @@ body {
 	padding-top: 0px;
 	position: fixed;}
 
-/*開催概要*/
-/*.info{
-	padding-top: 3200px;
-	text-align: center;
-	top: 87%;
-	left: 50%;
-	position: absolute;
-	width: 40%;
-    	transform: translate(-50%, 0);
-}
-.info {transition: ease 2.0s;opacity: 0;filter: blur(8px);letter-spacing: 5px;}	
-.infoS {transform: translate(-50%,-29vh); opacity:1;filter: blur(0px);}	
-.info.infoSc{
-	padding-top: 0px;
-	position: fixed;}
-
-.sns img{
-	height: 4vh; margin: 15px;
-	bottom:10%;
-}
-.sns{
-	margin-top:1.5rem;
-}
-.icon:hover{opacity: 0.7;}*/
-
 /*depth*/
 #log{z-index: 13;}
 .sink{
@@ -406,23 +381,12 @@ body {
     	font-size: 16px;
 	margin-top:4rem;
 }
-#kaisaigaiyo_text_title {
-    text-align: right;
-    margin-right: 1rem;
-}
-.kaiki::after {
-	line-height:0rem;
-	content: "\A　";
-	white-space: pre;
-}
-.kaijyo::after {
-	line-height:0rem;
-	content: "\A　";
-	white-space: pre;
-}
 #kaisaigaiyo_text_pc {
-    text-align: left;
-    margin-left: 1rem;
+	display: block;
+   	margin-left: 1rem;
+}
+#kaisaigaiyo_text_sp {
+	display: none;
 }
 /*協賛企業*/
 #kyousan h4 {
@@ -615,7 +579,13 @@ h5 {
     	.kenkyu_img {
         	width: 70vw;
     	}
-	#kaisaigaiyo_text{font-size: 16px;}
+	#kaisaigaiyo_text_pc {
+		display: none;
+	}
+	#kaisaigaiyo_text_sp {
+		display: block;
+		width: 100%;
+	}
     	#kyousan h4 {font-size: 16px;}
 }
 
