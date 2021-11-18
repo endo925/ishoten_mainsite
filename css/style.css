@@ -512,7 +512,7 @@ h5 {
             right: 0%;
             height: 80vh;
             width: 60vw;
-            background-color: #f0f3f7;
+            background-color: #ffffff;
             padding: 20vh 0 20vh 0;
             z-index: 90;
 	}
@@ -528,7 +528,7 @@ h5 {
 	}
 	.icon .icon_sp{
 		display: block;
-		height: 40px;
+		height: 6rem;
 		padding:50px 50px 0 0; 
 		float:left;
 	}
@@ -536,7 +536,8 @@ h5 {
             display: block;
         }
         .pc-nav-list li {
-            margin-bottom: 2vh;
+            margin-bottom: 4vh;
+		font-size:4rem;
         }
     	.contents {
 		margin-top: 5vh;
