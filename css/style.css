@@ -383,7 +383,7 @@ body {
 }
 #kaisaigaiyo_text_pc {
 	display: block;
-   	margin-left: 1rem;
+	width: 100%;
 }
 #kaisaigaiyo_text_sp {
 	display: none;
