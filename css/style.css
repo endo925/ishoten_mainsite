@@ -505,7 +505,7 @@ h5 {
 	/*本文*/
 	.ham {
 		display: block;
-		height: 2.5vh
+		height: 2.5vh;
      		cursor: pointer;
 	}
 	#bar1, #bar2, #bar3 {
