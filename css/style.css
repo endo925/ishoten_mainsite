@@ -574,6 +574,9 @@ h5 {
 		display: block;
 		margin: 0 18vw;
 	}
+	#footer img{
+		margin-bottom:4rem;
+	}
 	#footer h5 {
 		font-size:2rem;
 	        display:block;
