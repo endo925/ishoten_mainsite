@@ -290,6 +290,8 @@ document.addEventListener('click', (e) => {
 		return;
 	}
 	if (!e.target.closest('.sp-nav')) {
+     		ham.classList.toggle('toggle');
+		menu.classList.toggle('sp-nav');
 		console.log('toggle');
 	}
 },false);
