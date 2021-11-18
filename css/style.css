@@ -427,7 +427,7 @@ body {
 	font-family: "ヒラギノ角ゴ Pro","遊ゴシック",sans-serif;
 	font-weight:lighter;
 }
-#kigyo {
+.kigyo {
 	text-align:left;
 	display:flex;
 	flex-direction:column;
