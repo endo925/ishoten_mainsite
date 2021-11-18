@@ -273,11 +273,14 @@ window.addEventListener('scroll', ()=>{
 },false);
 var ham = document.getElementsByClassName('ham');
 var menu = document.getElementsByClassName('pc-nav');
-ham.onclick = function () {
+ham.addEventListener('click', () => {
+	console.log('clicked');
+});
+/*ham.onclick = function () {
      	ham.classList.toggle('toggle');
 	menu.style.display = 'block';
 	console.log('clicked');
 }
 menu.onclick = function () {
 	console.log('clicked');
-}
+}*/
