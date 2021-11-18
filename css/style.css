@@ -505,11 +505,13 @@ h5 {
             background-color: #f0f3f7;
             padding: 20vh 0 20vh 0;
             z-index: 90;
-		color: #000;
 	}
 	.sp-nav li{
 		font-size: 24px;
 		line-height:100px;
+	}
+	.sp-nav li a{
+		color: #000;
 	}
 	.icon img{
 		height: 40px;
