@@ -552,6 +552,7 @@ h5 {
             width: 40vw;
             background-color: #000;
             padding: 20vh 0 20vh 0;
+            z-index: 90;
 	}
         .pc-nav-list {
             display: block;
