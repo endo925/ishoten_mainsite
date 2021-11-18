@@ -530,7 +530,7 @@ h5 {
 	}
 	.infoS {transform: translate(-50%,-141%); opacity:1;filter: blur(0px);}*/
 	/*本文*/
-	#header{padding-top:20px;}
+	#header{padding-top:1vh;}
 	.ham {
 		display: block;
 		height: 2.5vh;
