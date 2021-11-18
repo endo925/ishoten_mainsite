@@ -572,5 +572,8 @@ h5 {
 		display: block;
 		margin: 0 18vw;
 	}
+	#footer h5 {
+		font-size:3vw;
+	}
 }
 
