@@ -396,7 +396,7 @@ body {
 /*開催概要*/
 #map iframe{
 	height:45vh;
-	 width:40vw;
+	 width:100%;
 }
 #kaisai{
     text-align:center;
@@ -610,7 +610,7 @@ h5 {
 	}
 	#map iframe{
     		height:25vh;
-            	width:65vw;
+            	width:100%;
         }
     	.kenkyu_img {
         	width: 70vw;
