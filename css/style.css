@@ -286,6 +286,7 @@ body {
   font-size: 1.3rem;
   list-style: none;
 }
+.pc-nav-list li:hover{opacity:0.6;}
 .pc-nav-list li a{text-decoration: none;}
 .icon img{height: 2.3rem;}
 /*文章*/
