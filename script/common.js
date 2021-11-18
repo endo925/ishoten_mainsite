@@ -141,7 +141,7 @@ window.addEventListener('scroll', ()=>{
 	//vis_pc_2
 	let x2 = (scrollTopW+850)*0.001;
 	z_index2.style.opacity =0.7;
-	z_index11.style.filter = "none";
+	z_index2.style.filter = "none";
 	
 	if(scrollTopW>=0&&scrollTopW<1000){
 		z_index2.style.display = '';//表示
