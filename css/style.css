@@ -244,8 +244,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width:  94vw;
-    margin: 0 3vw;
+    width:  90vw;
+    margin: 0 5vw;
     height: 7rem;
   }
 .pc-nav-list {
