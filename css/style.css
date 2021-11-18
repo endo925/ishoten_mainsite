@@ -434,19 +434,11 @@ body {
 }
 .kigyo {
     margin: 16px;
-	text-align:left;
-	display:flex;
-	flex-direction:column;
+    line-height: 36px;
+	display:inline;
 }
-#kigyo_jyodan{
-	display:flex;
-	flex-direction:row;
-	justify-content:space-between;
-}
-#kigyo_gedan{
-	display:flex;
-	flex-direction:row;
-	justify-content:space-between;
+#kigyos {
+    text-align: center;
 }
 
 /*フッター*/
