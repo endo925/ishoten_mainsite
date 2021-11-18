@@ -480,11 +480,15 @@ h5 {
 	.infoS {transform: translate(-50%,-141%); opacity:1;filter: blur(0px);}*/
 	/*本文*/
 	#header{padding-top:1vh;}
+	.header_img{
+		margin-top:4rem;
+	}
 	.ham {
 		display: block;
 		height: 3vh;
      		cursor: pointer;
             	z-index: 100;
+		margin-top:4rem;
 	}
 	#bar1, #bar2, #bar3 {
      		transition: all 0.3s ease;
