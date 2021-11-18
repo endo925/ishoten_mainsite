@@ -504,6 +504,7 @@ h5 {
 	.infoS {transform: translate(-50%,-141%); opacity:1;filter: blur(0px);}*/
 	/*本文*/
 	.ham {
+		display: block;
 		height: 2.5vh
      		cursor: pointer;
 	}
