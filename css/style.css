@@ -294,8 +294,8 @@ body {
 }
 /*文章*/
 .contents {
-	padding: 25vh 20vw 0 20vw;
-    	margin-top: -10vh;
+	padding: 35vh 20vw 0 20vw;
+    	margin-top: 0vh;
 	position: relative;
 }
 .contents:nth-child(2) {
