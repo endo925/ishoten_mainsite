@@ -388,6 +388,9 @@ body {
     content: '＜';
 }
 /*開催概要*/
+#map{
+	width:70%;
+}
 #kaisai{
     text-align:center;
 }
