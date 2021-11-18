@@ -275,7 +275,7 @@ var ham = document.getElementsByClassName('ham')[0];
 var menu = document.getElementsByClassName('pc-nav')[0];
 var jump = document.getElementsByClassName('jump');
 document.addEventListener('click', (e) => {
-	if (document.querySelector('.toggle') != null && !e.target.closest('.sp-nav')) {
+	if (document.getElementsByClassName('toggle')[0] != null && !e.target.closest('.sp-nav')) {
      		ham.classList.toggle('toggle');
 		menu.classList.toggle('sp-nav');
 	}
