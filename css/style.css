@@ -313,7 +313,7 @@ body {
  	display: none;
 	position: absolute;
 	top: 0%;
-	width: 57%;
+	width: 55%;
  }
  #seihin:checked ~ #seihin_content,
  #sisupura:checked ~ #sisupura_content,
