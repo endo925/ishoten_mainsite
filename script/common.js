@@ -289,7 +289,7 @@ document.addEventListener('click', (e) => {
 	if (e.target.closest('.sp-nav')) {
 		return;
 	}
-	if (ham.classList.contains('toggle')) {
+	if (!ham.classList.contains('toggle')) {
      		ham.classList.toggle('toggle');
 		menu.classList.toggle('sp-nav');
 		console.log('toggle');
