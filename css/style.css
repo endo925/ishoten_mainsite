@@ -394,6 +394,11 @@ body {
 /*事前予約*/
 #yoyaku_text_pc{
 	display: block;
+	width: 100%;
+    	position: absolute;
+    	top: 50%;
+    	left: 50%;
+    	transform: translate(-50%, -50%); 
 }
 #yoyaku_text_sp{
 	display: none;
@@ -622,6 +627,11 @@ body {
 	}
 	#yoyaku_text_sp{
 		display: block;
+		width: 100%;
+    		position: absolute;
+    		top: 50%;
+    		left: 50%;
+    		transform: translate(-50%, -50%);
 	}
 	#kyosan_text_pc{
 		display: none;
