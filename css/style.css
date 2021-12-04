@@ -275,8 +275,8 @@ body {
 }
 /*文章*/
 .contents {
-	padding: 35vh 20vw 0 20vw;
-    	margin-top: 0vh;
+	padding: 0 20vw 0 20vw;
+    	margin-top: 35vh;
 	position: relative;
 }
 .contents:nth-child(2) {
@@ -411,8 +411,7 @@ body {
     	margin-top: 3vh;
 }
 /*協賛企業*/
-/*#kyousan.contents{padding:10vh 20vw 10vh 20vw;}
-#kyousan .menu::after {background-color:black;}
+/*#kyousan .menu::after {background-color:black;}
 #kyousan{background: rgb(240,243,247);}
 #kyousan .menu{color:black;}*/
 #kyosan_text_pc{
