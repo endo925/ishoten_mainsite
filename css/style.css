@@ -18,10 +18,6 @@ body {
 	font-family:"Times","ヒラギノ明朝ProN","遊明朝",serif;
 }
 
-img {
-	pointer-events: none;
-}
-
 #input{display: none;}	/*ロード前は消す*/
 
 *{color: aliceblue;}
