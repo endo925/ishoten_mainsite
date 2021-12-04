@@ -392,6 +392,7 @@ body {
 	display: none;
 }
 /*事前予約*/
+/*#yoyaku.contents{padding: 35vh 20vw 25vh 20vw;}*/
 #yoyaku_text_pc{
 	display: block;
 	width: 60%;
@@ -410,12 +411,9 @@ body {
     	margin-top: 3vh;
 }
 /*協賛企業*/
-/*#kyousan.contents{padding: 20vh 20vw 10vh 20vw;}
+/#kyousan.contents{padding:10vh 20vw 10vh 20vw;}
 #kyousan .menu::after {background-color:black;}
-#kyousan{
-	background: rgb(0,0,0);
-	background: linear-gradient(180deg,rgba(255,255,255,0) 0%, rgba(240,243,247,1)20%, rgba(240,243,247,1) 100%);
-	}
+#kyousan{background: rgb(240,243,247);}
 #kyousan .menu{color:black;}*/
 #kyosan_text_pc{
 	display: block;
@@ -428,7 +426,6 @@ body {
 
 /*フッター*/
 #footer{
-    /*background: rgb(240,243,247);*/
     text-align:center;
     margin-top: 20vh;
 }
