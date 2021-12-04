@@ -394,7 +394,7 @@ body {
 /*事前予約*/
 #yoyaku_text_pc{
 	display: block;
-	width: 80%;
+	width: 60%;
     	position: relative;
     	left: 50%;
     	transform: translate(-50%); 
