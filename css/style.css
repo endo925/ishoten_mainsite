@@ -391,6 +391,13 @@ body {
 #kaisaigaiyo_text_sp {
 	display: none;
 }
+/*事前予約*/
+#yoyaku_text_pc{
+	display: block;
+}
+#yoyaku_text_sp{
+	display: none;
+}
 /*協賛企業*/
 #kyosan_text_pc{
 	display: block;
@@ -609,6 +616,12 @@ body {
 		margin:0 auto;
 		width: 81%;
 		height: 35vh;
+	}
+	#yoyaku_text_pc{
+		display: none;
+	}
+	#yoyaku_text_sp{
+		display: block;
 	}
 	#kyosan_text_pc{
 		display: none;
