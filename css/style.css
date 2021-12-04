@@ -410,9 +410,16 @@ body {
     	margin-top: 3vh;
 }
 /*協賛企業*/
+#kyousan.contents{padding: 10vh 20vw 10vh 20vw;}
+#kyousan .menu::after {background-color:black;}
+#kyousan{
+	background: rgb(0,0,0);
+	background: linear-gradient(180deg,rgba(255,255,255,0) 0%, rgba(240,243,247,1)10%, rgba(240,243,247,1) 90%, rgba(255,255,255,0) 100%);
+	}
+#kyousan .menu{color:black;}
 #kyosan_text_pc{
 	display: block;
-	margin:0 auto 40rem;
+	margin:0 auto 10rem;
 	width:78%;
 }
 #kyosan_text_sp{
