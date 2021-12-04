@@ -395,10 +395,9 @@ body {
 #yoyaku_text_pc{
 	display: block;
 	width: 80%;
-    	position: absolute;
-    	top: 50%;
+    	position: relative;
     	left: 50%;
-    	transform: translate(-50%, -50%); 
+    	transform: translate(-50%); 
 }
 #yoyaku_text_sp{
 	display: none;
@@ -628,10 +627,9 @@ body {
 	#yoyaku_text_sp{
 		display: block;
 		width: 70%;
-    		position: absolute;
-    		top: 50%;
+    		position: relative;
     		left: 50%;
-    		transform: translate(-50%, -50%);
+    		transform: translate(-50%);
 	}
 	#kyosan_text_pc{
 		display: none;
