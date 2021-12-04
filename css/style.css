@@ -403,7 +403,11 @@ body {
 	display: none;
 }
 #mail {
-	width: 2.5vh;
+	width: 3vh;
+    	position: relative;
+    	left: 50%;
+    	transform: translate(-50%);
+    	margin-top: 3vh;
 }
 /*協賛企業*/
 #kyosan_text_pc{
