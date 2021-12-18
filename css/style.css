@@ -411,9 +411,9 @@ body {
     	margin-top: 3vh;
 }
 /*協賛企業*/
-/*#kyousan .menu::after {background-color:black;}
-#kyousan{background: rgb(240,243,247);}
-#kyousan .menu{color:black;}*/
+#kyousan .menu::after {background-color:#000000;}
+#kyousan{background: #ffffff;}
+#kyousan .menu{color:#000000;}
 #kyosan_text_pc{
 	display: block;
 	margin:0 auto 40rem;
