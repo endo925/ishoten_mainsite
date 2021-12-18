@@ -412,12 +412,14 @@ body {
 }
 /*協賛企業*/
 #kyousan .menu::after {background-color:#000000;}
-#kyousan{background: #ffffff;}
+#kyousan{background: #ffffff;
+         padding-top:6rem;}
 #kyousan .menu{color:#000000;}
 #kyosan_text_pc{
 	display: block;
-	margin:0 auto 40rem;
+	margin:0 auto 5rem;
 	width:78%;
+        padding-bottom:10rem;
 }
 #kyosan_text_sp{
 	display:none;
