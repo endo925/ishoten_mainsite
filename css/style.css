@@ -645,6 +645,7 @@ body {
 	}
 	#kyousan{
 		margin-top:28vh;
+		padding-top:8rem;
 	}
 	#kyosan_text_pc{
 		display: none;
@@ -652,7 +653,7 @@ body {
 	#kyosan_text_sp{
 		display: block;
 		margin: 0 18vw;
-		padding-bottom:12rem;
+		padding-bottom:14rem;
 	}
 	#footer{
 		margin-top:8rem;
