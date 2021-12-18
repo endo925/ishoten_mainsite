@@ -654,6 +654,9 @@ body {
 		margin: 0 18vw;
 		padding-bottom:12rem;
 	}
+	#footer{
+		margin-top:8rem;
+	}	
 	#footer img{
 		margin-bottom:4rem;
 	}
