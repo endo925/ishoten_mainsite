@@ -643,12 +643,16 @@ body {
     		left: 50%;
     		transform: translate(-50%);
 	}
+	#kyosan{
+		margin-top:15vh;
+	}
 	#kyosan_text_pc{
 		display: none;
 	}
 	#kyosan_text_sp{
 		display: block;
 		margin: 0 18vw;
+		padding-bottom:12rem;
 	}
 	#footer img{
 		margin-bottom:4rem;
