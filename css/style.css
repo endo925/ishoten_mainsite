@@ -434,6 +434,7 @@ body {
 	color: #000000;
 }
 #goudou_botan h4{
+	font-family: "ヒラギノ角ゴ Pro","遊ゴシック",sans-serif;
 	font-size: 1rem;
 	margin-top: 50px;
 	transform: translateY(-50%);
