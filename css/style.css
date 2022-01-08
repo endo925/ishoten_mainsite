@@ -411,6 +411,16 @@ body {
     	margin-top: 3vh;
 }
 /*合同卒展*/
+#goudou_text_pc{
+	display: block;
+	width: 67%;
+    	position: relative;
+    	left: 50%;
+    	transform: translate(-50%); 
+}
+#goudou_text_sp{
+	display: none;
+}
 #goudou_botan {
 	display: inline-block;
 	height: 100px;
@@ -668,6 +678,16 @@ body {
 		display: none;
 	}
 	#yoyaku_text_sp{
+		display: block;
+		width: 75%;
+    		position: relative;
+    		left: 50%;
+    		transform: translate(-50%);
+	}
+	#goudou_text_pc{
+		display: none;
+	}
+	#goudou_text_sp{
 		display: block;
 		width: 75%;
     		position: relative;
