@@ -20,7 +20,6 @@ body {
 
 #input{display: none;}	/*ロード前は消す*/
 
-*{color: aliceblue;}
 
 /*ローディングアニメーション*/
 .loader,
@@ -262,7 +261,7 @@ body {
   list-style: none;
 }
 .pc-nav-list li:hover{opacity:0.6;}
-.pc-nav-list li a{text-decoration: none;}
+.pc-nav-list li a{color: aliceblue; text-decoration: none;}
 .icon .icon_pc{
 	display: block;
 	height: 24px;
@@ -284,6 +283,7 @@ body {
     height: 40vh;
 }
 .menu {
+	color: aliceblue;
 	width: 100%;
 	text-align: center;
 	font-size: 24px;
@@ -353,6 +353,7 @@ body {
 	width: 100%;
 }
 .tab_item {
+	color: aliceblue;
 	font-size: 16px;
 	position: relative;
 	left: 66%;
@@ -427,6 +428,7 @@ body {
 	width: 400px;
 	margin: 10px 0;
 	text-decoration: none;
+	color: aliceblue;
 	text-align: center;
 	border: 2px solid #FFFFFF;
 	
