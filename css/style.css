@@ -410,6 +410,35 @@ body {
     	transform: translate(-50%);
     	margin-top: 3vh;
 }
+/*合同卒展*/
+#goudou {
+	display: inline-block;
+	height: 100px;
+	width: 400px;
+	margin: 10px 0;
+	text-decoration: none;
+	text-align: center;
+	border: 2px solid #FFFFFF;
+	
+	/* transition properties */
+	background-color:none;
+	color: #FFFFFF;
+	transition-property: background-color, color;
+  	transition-duration: 0.2s;
+  	transition-timing-function: ease;
+  	transition-delay: 0;
+}
+
+#goudou:hover {
+	background-color:#FFFFFF;
+	color: #000000;
+}
+h3{
+	margin-top:50px;
+	transform: translateY(-50%);
+}
+
+
 /*協賛企業*/
 #kyousan .menu::after {background-color:#000000;}
 #kyousan{background: #ffffff;
