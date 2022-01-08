@@ -163,6 +163,7 @@ body {
 /*depth*/
 #log{z-index: 13;}
 .sink{
+	color: aliceblue;
 	overflow:hidden;
 	padding-top: 5200px;
 	position: absolute;
