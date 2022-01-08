@@ -432,7 +432,7 @@ body {
 	text-decoration: none;
 	color: aliceblue;
 	text-align: center;
-	border: 2px solid aliceblue;
+	border: 1px solid aliceblue;
 	
 	/* transition properties */
 	background-color:none;
@@ -448,6 +448,7 @@ body {
 	color: #000000;
 }
 #goudou_botan h4{
+	font-weight:0;
 	font-family: "ヒラギノ角ゴ Pro","遊ゴシック",sans-serif;
 	font-size: 1.5rem;
 	margin-top: 30px;
