@@ -434,7 +434,8 @@ body {
 	color: #000000;
 }
 #goudou_botan h4{
-	margin-top:50px;
+	font-size: 1rem;
+	margin-top: 50px;
 	transform: translateY(-50%);
 }
 
