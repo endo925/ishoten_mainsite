@@ -412,6 +412,7 @@ body {
     	margin-top: 3vh;
 }
 /*合同卒展*/
+#goudou{text-align:center;}
 #goudou_text_pc{
 	display: block;
 	width: 67%;
@@ -430,7 +431,7 @@ body {
 	text-decoration: none;
 	color: aliceblue;
 	text-align: center;
-	border: 2px solid #FFFFFF;
+	border: 2px solid aliceblue;
 	
 	/* transition properties */
 	background-color:none;
@@ -442,7 +443,7 @@ body {
 }
 
 #goudou_botan:hover {
-	background-color:#FFFFFF;
+	background-color:aliceblue;
 	color: #000000;
 }
 #goudou_botan h4{
