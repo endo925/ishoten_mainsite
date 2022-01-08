@@ -411,7 +411,7 @@ body {
     	margin-top: 3vh;
 }
 /*合同卒展*/
-#goudou {
+#goudou_botan {
 	display: inline-block;
 	height: 100px;
 	width: 400px;
@@ -429,11 +429,11 @@ body {
   	transition-delay: 0;
 }
 
-#goudou:hover {
+#goudou_botan:hover {
 	background-color:#FFFFFF;
 	color: #000000;
 }
-h3{
+#goudou_botan h4{
 	margin-top:50px;
 	transform: translateY(-50%);
 }
