@@ -221,15 +221,12 @@ window.addEventListener('scroll', ()=>{
 	let td = con(t);
 	z_index0.style.filter = "none";
 	
-	if(scrollTopB>=0&&scrollTopB<8200){
-		z_index0.style.display = '';//表示
-		if(scrollTopB<250){
-			z_index0.style.opacity =scrollTopB/350;
-			z_index0.style.filter = "blur("+td+"px)";
-		}
-		else{z_index0.style.transform = "scale( "+1+" , "+1+" )";}
+	z_index0.style.display = '';//表示
+	if(scrollTopB<250){
+		z_index0.style.opacity =scrollTopB/350;
+		z_index0.style.filter = "blur("+td+"px)";
 	}
-	else{z_index0.style.display = 'none';}
+	else{z_index0.style.transform = "scale( "+1+" , "+1+" )";}
 	
 		
 	//意匠展、開催概要
