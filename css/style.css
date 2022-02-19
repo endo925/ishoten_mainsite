@@ -708,6 +708,9 @@ body {
     		left: 50%;
     		transform: translate(-50%);
 	}
+	#mail{
+		letter-spacing:2px;
+		font-size: 2.5rem;}
 	#goudou_text_pc{
 		display: none;
 	}
