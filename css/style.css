@@ -409,6 +409,7 @@ body {
 .yoyaku_text_sp{
 	display: none;
 }
+#yoyaku a{text-decoration:none;}
 #mail_icon {
 	text-align:center;
     display: inline;
@@ -416,7 +417,7 @@ body {
     	margin-top: 3vh;
     	left:50%;
     	transform: translateX(-50%);
-         transform: translateY(25%);
+        transform: translateY(25%);
 }
 #mail {
 	text-align:center;
@@ -427,7 +428,6 @@ body {
 	font-family: "ヒラギノ角ゴ Pro","遊ゴシック",sans-serif;
 	font-size: 1.5rem;
 	color: #FFFFFF;
-	text-decoration:none;
 }
 #mail:hover {text-decoration:underline;
              color: #FFFFFF;
