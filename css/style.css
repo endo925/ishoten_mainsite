@@ -441,6 +441,9 @@ body {
 #goudou_text_sp{
 	display: none;
 }
+a.goudou_yoyaku_botan{
+	margin-bottom: 6vh;
+}
 .goudou_yoyaku_botan {
 	display: inline-block;
 	height: 60px;
