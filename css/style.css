@@ -642,7 +642,7 @@ body {
 	}
 	.poster_text_sp {
 		display: block;
-		width:80%;
+		width:85%;
     		position: absolute;
     		top: 50%;
     		left: 50%;
@@ -695,7 +695,7 @@ body {
 	#kaisaigaiyo_text_sp {
 		display: block;
 		margin:0 auto;
-		width: 90%;
+		width: 85%;
 		height: 35vh;
 	}
 	.yoyaku_text_pc{
@@ -703,7 +703,7 @@ body {
 	}
 	.yoyaku_text_sp{
 		display: block;
-		width: 80%;
+		width: 85%;
     		position: relative;
     		left: 50%;
     		transform: translate(-50%);
@@ -713,7 +713,7 @@ body {
 	}
 	#goudou_text_sp{
 		display: block;
-		width: 80%;
+		width: 85%;
     		position: relative;
     		left: 50%;
     		transform: translate(-50%);
