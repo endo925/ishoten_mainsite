@@ -407,19 +407,28 @@ body {
 	display: none;
 }
 #mail_icon {
+	text-align:center;
+    display: inline;
 	width: 3vh;
     	margin-top: 3vh;
-	position: relative;
-    	left: 50%;
-    	transform: translate(-50%);
+    	left:50%;
+    	transform: translateX(-50%);
+         transform: translateY(25%);
 }
 #mail {
+	text-align:center;
+	margin-left: 1vw;
+	display: inline;
 	letter-spacing:1.5px;
 	font-weight:0;
-	font-family: "ヒラギノ角ゴ Pro","遊ゴシック",sans-serif;
-	font-size: 1.5rem;
+	font-family: "Times";
+	font-size: 1.7rem;
+	color: #FFFFFF;
+	text-decoration:none;
 }
-    	transform: translate(-50%);
+#mail:hover {text-decoration:underline;
+             color: #FFFFFF;
+}
 /*合同卒展*/
 #goudou{text-align:center;}
 #goudou_text_pc{
