@@ -621,7 +621,7 @@ body {
         }
     	.contents {
 		margin-top: 5vh;
-		padding: 15vh 5vw 0 5vw;
+		padding: 15vh 0 0 0;
 	}
 	.menu{
 	    	font-size:5vw;
@@ -673,7 +673,7 @@ body {
 	}
     	.kenkyu_img_sp{
 		display:block;
-        	width: 70vw;
+        	width: 80vw;
     	}
 	.kenkyu_sp_h5{
 		margin-top: 65px;
