@@ -700,7 +700,8 @@ a.goudou_yoyaku_botan{
 	}
 	#kaisaigaiyo_text_sp {
 		display: block;
-		margin:0 auto;
+		margin: auto;
+        	padding-top: 2vh;
 		width: 85%;
 		height: 35vh;
 	}
