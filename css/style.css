@@ -395,6 +395,7 @@ body {
 }
 /*事前予約*/
 /*#yoyaku.contents{padding: 35vh 20vw 25vh 20vw;}*/
+#yoyaku{text-align:center;}
 .yoyaku_text_pc{
 	display: block;
 	width: 67%;
