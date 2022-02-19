@@ -688,7 +688,7 @@ img#mail {
 	}
 	.yoyaku_text_sp{
 		display: block;
-		width: 75%;
+		width: 80%;
     		position: relative;
     		left: 50%;
     		transform: translate(-50%);
@@ -698,7 +698,7 @@ img#mail {
 	}
 	#goudou_text_sp{
 		display: block;
-		width: 75%;
+		width: 80%;
     		position: relative;
     		left: 50%;
     		transform: translate(-50%);
