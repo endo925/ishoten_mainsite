@@ -424,7 +424,7 @@ body {
 #goudou_text_sp{
 	display: none;
 }
-#goudou_botan {
+.goudou_yoyaku_botan {
 	display: inline-block;
 	height: 60px;
 	width: 250px;
@@ -443,11 +443,11 @@ body {
   	transition-delay: 0;
 }
 
-#goudou_botan:hover {
+.goudou_yoyaku_botan:hover {
 	background-color: #ffffff;
 	color: #000000;
 }
-#goudou_botan h4{
+.goudou_yoyaku_botan h4{
 	letter-spacing:1.5px;
 	font-weight:0;
 	font-family: "ヒラギノ角ゴ Pro","遊ゴシック",sans-serif;
@@ -701,13 +701,13 @@ body {
     		left: 50%;
     		transform: translate(-50%);
 	}
-	#goudou_botan {
+	.goudou_yoyaku_botan {
 		height: 100px;
 	  	width: 400px;
 		margin-top: 7vh;
 		border: 2px solid aliceblue;
 	}
-	#goudou_botan h4{
+	.goudou_yoyaku_botan h4{
 		letter-spacing:2px;
 		font-size: 2.3rem;
 		margin-top: 50px;
