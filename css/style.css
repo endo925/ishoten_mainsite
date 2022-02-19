@@ -414,7 +414,7 @@ body {
 	text-align:center;
     display: inline;
 	width: 3vh;
-    	margin-top: 3vh;
+    	margin-top: 5vh;
     	left:50%;
     	transform: translateX(-50%);
         transform: translateY(25%);
@@ -717,7 +717,7 @@ a.goudou_yoyaku_botan{
 	}
 	#mail{
 		letter-spacing:2px;
-		font-size: 2.3rem;}
+		font-size: 2.5rem;}
 	#goudou_text_pc{
 		display: none;
 	}
