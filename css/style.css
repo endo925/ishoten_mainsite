@@ -429,7 +429,7 @@ body {
 	display: inline-block;
 	height: 60px;
 	width: 250px;
-	margin-top: 10vh;
+	margin: 10vh;
 	text-decoration: none;
 	color: aliceblue;
 	text-align: center;
@@ -705,7 +705,7 @@ body {
 	.goudou_yoyaku_botan {
 		height: 100px;
 	  	width: 400px;
-		margin-top: 7vh;
+		margin: 7vh;
 		border: 2px solid aliceblue;
 	}
 	.goudou_yoyaku_botan h4{
