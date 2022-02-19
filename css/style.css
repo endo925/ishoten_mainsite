@@ -406,12 +406,18 @@ body {
 .yoyaku_text_sp{
 	display: none;
 }
-img#mail {
+#mail_icon {
 	width: 3vh;
     	margin-top: 3vh;
-}
-#mail {position: relative;
+	position: relative;
     	left: 50%;
+    	transform: translate(-50%);
+}
+#mail {
+	letter-spacing:1.5px;
+	font-weight:0;
+	font-family: "ヒラギノ角ゴ Pro","遊ゴシック",sans-serif;
+	font-size: 1.5rem;
 }
     	transform: translate(-50%);
 /*合同卒展*/
@@ -688,7 +694,7 @@ img#mail {
 	}
 	.yoyaku_text_sp{
 		display: block;
-		width: 80%;
+		width: 75%;
     		position: relative;
     		left: 50%;
     		transform: translate(-50%);
@@ -698,7 +704,7 @@ img#mail {
 	}
 	#goudou_text_sp{
 		display: block;
-		width: 80%;
+		width: 75%;
     		position: relative;
     		left: 50%;
     		transform: translate(-50%);
