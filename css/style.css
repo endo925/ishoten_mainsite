@@ -395,14 +395,14 @@ body {
 }
 /*事前予約*/
 /*#yoyaku.contents{padding: 35vh 20vw 25vh 20vw;}*/
-#yoyaku_text_pc{
+.yoyaku_text_pc{
 	display: block;
 	width: 67%;
     	position: relative;
     	left: 50%;
     	transform: translate(-50%); 
 }
-#yoyaku_text_sp{
+.yoyaku_text_sp{
 	display: none;
 }
 #mail {
@@ -681,10 +681,10 @@ body {
 		width: 81%;
 		height: 35vh;
 	}
-	#yoyaku_text_pc{
+	.yoyaku_text_pc{
 		display: none;
 	}
-	#yoyaku_text_sp{
+	.yoyaku_text_sp{
 		display: block;
 		width: 75%;
     		position: relative;
