@@ -387,9 +387,12 @@ body {
 	width: 100%;
 }
 #kaisaigaiyo_text_pc {
+	margin_top:6%;
 	display: block;
-	width: 60%;
+	width: 82%;
 	margin:5rem auto;
+	position:relative;
+	left:4.5%;
 }
 #kaisaigaiyo_text_sp {
 	display: none;
@@ -399,10 +402,10 @@ body {
 #yoyaku{text-align:center;}
 .yoyaku_text_pc{
 	display: block;
-	margin-top: 6%;
-	width: 82%;
+	width: 90%;
     	position: relative;
-    	left: 4.5%;
+    	left: 50%;
+　　　　　transform:translate(-50%);
 }
 .yoyaku_text_sp{
 	display: none;
