@@ -666,7 +666,7 @@ body {
     	}
 	#map iframe{
     		height:28vh;
-            	width:81%;
+            	width:90%;
         }
 	.kenkyu_img{
 		display:none;
@@ -686,7 +686,7 @@ body {
 	#kaisaigaiyo_text_sp {
 		display: block;
 		margin:0 auto;
-		width: 81%;
+		width: 90%;
 		height: 35vh;
 	}
 	.yoyaku_text_pc{
