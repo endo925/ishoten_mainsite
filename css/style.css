@@ -730,7 +730,8 @@ body {
 	}
 	#kyosan_text_sp{
 		display: block;
-		margin: 0 18vw;
+        	margin: auto;
+        	width: 90%;
 		padding-bottom:16rem;
 	}
 	#footer{
