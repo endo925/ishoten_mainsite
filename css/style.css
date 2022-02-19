@@ -325,7 +325,7 @@ body {
  	display: none;
 	position: absolute;
 	top: 0%;
-	left: 3%;
+	left: 5%;
 	width: 55%;
  }
  #seihin:checked ~ #seihin_content,
