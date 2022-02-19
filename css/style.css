@@ -390,7 +390,6 @@ body {
 	margin_top:6%;
 	display: block;
 	width: 82%;
-	margin:5rem auto;
 	position:relative;
 	left:4.5%;
 }
@@ -405,7 +404,7 @@ body {
 	width: 90%;
     	position: relative;
     	left: 50%;
-　　　　　transform:translate(-50%);
+        transform:translate(-50%);
 }
 .yoyaku_text_sp{
 	display: none;
