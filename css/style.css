@@ -694,7 +694,7 @@ body {
 	}
 	.yoyaku_text_sp{
 		display: block;
-		width: 80%;
+		width: 90%;
     		position: relative;
     		left: 50%;
     		transform: translate(-50%);
@@ -704,7 +704,7 @@ body {
 	}
 	#goudou_text_sp{
 		display: block;
-		width: 80%;
+		width: 90%;
     		position: relative;
     		left: 50%;
     		transform: translate(-50%);
