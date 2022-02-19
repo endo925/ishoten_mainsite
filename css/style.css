@@ -674,10 +674,10 @@ a.goudou_yoyaku_botan{
     		padding: 0;
     	}
 	.tab_content#seihin_content{
-		padding: 0 20px 0 10vw;
+		padding: 0 20px 0 7.5vw;
     	}
     	.tab_content#sasute_content{
-		padding: 0 10vw 0 0;
+		padding: 0 7.5vw 0 0;
     	}
 	#map iframe{
     		height:63.25vw;
