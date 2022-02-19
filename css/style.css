@@ -406,13 +406,14 @@ body {
 .yoyaku_text_sp{
 	display: none;
 }
-#mail {
+img#mail {
 	width: 3vh;
-    	position: relative;
-    	left: 50%;
-    	transform: translate(-50%);
     	margin-top: 3vh;
 }
+#mail {position: relative;
+    	left: 50%;
+}
+    	transform: translate(-50%);
 /*合同卒展*/
 #goudou{text-align:center;}
 #goudou_text_pc{
