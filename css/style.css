@@ -633,7 +633,7 @@ body {
 	}
 	.poster_text_sp {
 		display: block;
-		width:70%;
+		width:80%;
     		position: absolute;
     		top: 50%;
     		left: 50%;
@@ -666,7 +666,7 @@ body {
     	}
 	#map iframe{
     		height:28vh;
-            	width:90%;
+            	width:80%;
         }
 	.kenkyu_img{
 		display:none;
@@ -694,7 +694,7 @@ body {
 	}
 	.yoyaku_text_sp{
 		display: block;
-		width: 90%;
+		width: 80%;
     		position: relative;
     		left: 50%;
     		transform: translate(-50%);
@@ -704,7 +704,7 @@ body {
 	}
 	#goudou_text_sp{
 		display: block;
-		width: 90%;
+		width: 80%;
     		position: relative;
     		left: 50%;
     		transform: translate(-50%);
@@ -731,7 +731,7 @@ body {
 	#kyosan_text_sp{
 		display: block;
         	margin: auto;
-        	width: 90%;
+        	width: 80%;
 		padding-bottom:16rem;
 	}
 	#footer{
