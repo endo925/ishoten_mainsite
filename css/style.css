@@ -662,9 +662,9 @@ a.goudou_yoyaku_botan{
 		display: block;
 		width:85%;
     		position: absolute;
-    		top: 50%;
+    		top: 0%;
     		left: 50%;
-    		transform: translate(-50%, -150%); 
+    		transform: translate(-50%, -50%); 
 	}
 	.shuuryou_pc {
 		display: none;
@@ -673,7 +673,7 @@ a.goudou_yoyaku_botan{
 		display: block;
 		width:85%;
     		position: absolute;
-    		top: 50%;
+    		bottom: 0%;
     		left: 50%;
     		transform: translate(-50%, 0%); 
 	}
