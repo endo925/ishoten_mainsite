@@ -675,7 +675,7 @@ a.goudou_yoyaku_botan{
     		position: absolute;
     		top: 50%;
     		left: 50%;
-    		transform: translate(-50%, -50%); 
+    		transform: translate(-50%, 0%); 
 	}
 	.poster_text_pc {
 		display: none;
