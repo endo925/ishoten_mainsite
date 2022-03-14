@@ -225,7 +225,7 @@ body {
 #honbun {
 	overflow:hidden;
 	background: linear-gradient(0deg, rgba(4, 5, 7, 1), rgba(0, 0, 0, 0) );
-	margin-top: 2400px;
+	padding-top: 2700px;
 	width: 100%;
 	position: absolute;
 	top: 100%;
@@ -309,7 +309,7 @@ body {
     width: 54%;
     top: 0%;
     left: 50%;
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -200%); 
 }
 .shuuryou_sp {
 	display: none;
@@ -664,7 +664,7 @@ a.goudou_yoyaku_botan{
     		position: absolute;
     		top: 0%;
     		left: 50%;
-    		transform: translate(-50%, -50%); 
+    		transform: translate(-50%, -200%); 
 	}
 	.shuuryou_pc {
 		display: none;
