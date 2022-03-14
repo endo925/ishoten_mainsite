@@ -251,7 +251,7 @@ window.addEventListener('scroll', ()=>{
 		M.classList.remove("depout");
 	}
 
-	if(scrollTop>2600){
+	if(scrollTop>2590){
 		//Last_back.classList.remove('last_backSc');
 		//ImgPa.classList.remove('imgSc');			//css:line:38
 		//Img.classList.remove('imgSc');				//css:line:37
