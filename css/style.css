@@ -279,7 +279,7 @@ body {
     	margin-top: 35vh;
 	position: relative;
 }
-.contents:nth-child(2) {
+.contents:nth-child(3) {
 	padding-top: 0;
     height: 40vh;
 }
@@ -307,7 +307,7 @@ body {
 	display: block;
     position: absolute;
     width: 54%;
-    top: 50%;
+    top: 0%;
     left: 50%;
     transform: translate(-50%, -50%); 
 }
@@ -319,9 +319,9 @@ body {
 	display: block;
     position: absolute;
     width: 54%;
-    top: 50%;
+    bottomm: 0%;
     left: 50%;
-    transform: translate(-50%, -200%); 
+    transform: translate(-50%, 0%); 
 }
 .poster_text_sp {
 	display: none;
