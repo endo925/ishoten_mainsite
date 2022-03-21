@@ -410,7 +410,7 @@ body {
 }
 /*事前予約*/
 /*#yoyaku.contents{padding: 35vh 20vw 25vh 20vw;}*/
-#yoyaku{text-align:center;}
+/*#yoyaku{text-align:center;}
 .yoyaku_text_pc{
 	display: block;
 	width: 90%;
@@ -443,7 +443,7 @@ body {
 }
 #mail:hover {text-decoration:underline;
              color: #FFFFFF;
-}
+}*/
 /*合同卒展*/
 #goudou{text-align:center;}
 #goudou_text_pc{
@@ -728,7 +728,7 @@ a.goudou_yoyaku_botan{
 		width: 85%;
 		height: 35vh;
 	}
-	.yoyaku_text_pc{
+	/*.yoyaku_text_pc{
 		display: none;
 	}
 	.yoyaku_text_sp{
@@ -737,7 +737,7 @@ a.goudou_yoyaku_botan{
     		position: relative;
     		left: 50%;
     		transform: translate(-50%);
-	}
+	}*/
 	#mail{
 		letter-spacing:2px;
 		font-size: 2.5rem;}
