@@ -303,17 +303,15 @@ body {
     transform: translate(-50%); 
 }
 /*会期終了*/
-.shuuryou_pc {
-	display: block;
+.shuuryou_sp {
+    display: block;
     position: absolute;
     width: 54%;
     top: 0%;
     left: 50%;
     transform: translate(-50%, -200%); 
 }
-.shuuryou_sp {
-	display: none;
-}
+
 /*ポスター画像*/
 .poster_text_pc {
 	display: block;
