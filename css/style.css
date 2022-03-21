@@ -322,7 +322,7 @@ body {
     width: 54%;
     bottomm: 0%;
     left: 50%;
-    transform: translate(-50%, 0%); 
+    transform: translate(-50%, 10%); 
 }
 .poster_text_sp {
 	display: none;
