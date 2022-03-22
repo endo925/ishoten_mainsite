@@ -303,7 +303,7 @@ body {
     transform: translate(-50%); 
 }
 /*会期終了*/
-.shuuryou_pc {
+.shuuryou_sp {
     display: block;
     position: absolute;
     width: 54%;
@@ -311,9 +311,6 @@ body {
     left: 50%;
     transform: translate(-50%, -800%); 
 }
-.shuuryou_sp {
-	display: none; 
-	}
 
 /*ポスター画像*/
 .poster_text_pc {
@@ -667,9 +664,7 @@ a.goudou_yoyaku_botan{
     		left: 50%;
     		transform: translate(-50%, -200%); 
 	}
-	.shuuryou_pc {
-		display: none;
-	}
+
 	.poster_text_sp {
 		display: block;
 		width:85%;
