@@ -306,10 +306,10 @@ body {
 .shuuryou_sp {
     display: block;
     position: absolute;
-    width: 54%;
+    width: 45%;
     top: 0%;
     left: 50%;
-    transform: translate(-50%, -800%); 
+    transform: translate(-50%, -450%); 
 }
 
 /*ポスター画像*/
